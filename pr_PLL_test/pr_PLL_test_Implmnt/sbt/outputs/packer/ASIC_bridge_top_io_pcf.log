@@ -1,0 +1,8 @@
+OUTPUT xor_out_dyn 	 location (3, 0, 1) 	 J1 	 
+OUTPUT sel_output 	 location (33, 4, 1) 	 A9 	 
+OUTPUT clk_output 	 location (23, 33, 0) 	 A6 	 
+INPUT  CLK 	 location (0, 30, 0) 	 B2 	 
+OUTPUT xor_out_stat 	 location (33, 21, 1) 	 C9 	 
+OUTPUT mosi_output 	 location (33, 2, 0) 	 H9 	 
+INPUT  miso_input 	 location (28, 33, 1) 	 A8 	 
+INPUT  RST_N 	 location (0, 30, 1) 	 C2 	 

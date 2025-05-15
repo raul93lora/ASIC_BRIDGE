@@ -1,25 +1,30 @@
 /*
 * Raul Lora Rivera
+*
 * ASIC BRIDGE TOP.v
+*
+* This module first send to the ASIC analog part the STATCNF and DYNCNF at 2MHz and then at 1MHz
+* These frequencies are variable through the DELAY parameters in modules switch_clk_2MHz and switch_clk_1MHz
+*
 */
 module ASIC_bridge_top(
 	CLK,		
 	RST_N,
-	clk_output,
-	mosi_output,
-	sel_output,
-	//flag_signal_out,
-	miso_input,					// Para simulacion quita esta linea
-	//s15,						// Para simulacion quita esta linea
-	s14,						// Para simulacion quita esta linea
-	s13,						// Para simulacion quita esta linea
-	s12,						// Para simulacion quita esta linea
-	xor_out_dyn,					// Salida comparacion dynamic reg
-	xor_out_stat					// Salida comparacion static reg
+	clk_output,					// Final clock output for Analog ASIC
+	mosi_output,					// MOSI signal for Analog ASIC
+	sel_output,					// SEL signal for Analog ASIC
+	//flag_signal_out,				// Signal to test the start of switch_clk_1MHz
+	miso_input,					// MISO signal for Analog ASIC
+	//s15,						// To test in GPIO the STATCNF or DYNCNF bits				
+	//s14,						// To test in GPIO the STATCNF or DYNCNF bits						
+	//s13,						// To test in GPIO the STATCNF or DYNCNF bits						
+	//s12,						// To test in GPIO the STATCNF or DYNCNF bits						
+	xor_out_dyn,					// Error for dynamic reg
+	xor_out_stat					// Error for static reg
 );
 
 	// Parameters definition
-	parameter SIZESRSTAT = 88; 		// Static shift register length 
+	parameter SIZESRSTAT = 88; 			// Static shift register length 
 	parameter SIZESRDYN = 16; 			// Dynamic shift register length
 	parameter SIZEADDRMUX = 7;
 
@@ -32,113 +37,99 @@ module ASIC_bridge_top(
 	output wire sel_output;
 	//output wire flag_signal_out;
 	//output wire s15;
-	output wire s14;
-	output wire s13;
-	output wire s12;
-	output wire xor_out_dyn;
-	output wire xor_out_stat;
-	wire clk_pll;
-	wire clk_pll_continuous;
-	wire clk_continuous_slow;
-	wire clk_continuous_fast;
-	wire clk_out_slow;
-	wire clk_out_fast;
+	//output wire s14;
+	//output wire s13;
+	//output wire s12;
+	output wire xor_out_dyn;			// Error detection y DYNCNF
+	output wire xor_out_stat;			// Error detection y STATCNF
+
+	// Connections
+	wire clk_continuous_1MHz;
+	wire clk_continuous_2MHz;
+	wire clk_out_1MHz;
+	wire clk_out_2MHz;
 	wire mosi;
-	wire mosi_slow;
-	wire mosi_fast;
+	wire mosi_1MHz;
+	wire mosi_2MHz;
 	wire aux_selection;
-	wire aux_selection_slow;
-	wire aux_selection_fast;
+	wire aux_selection_1MHz;
+	wire aux_selection_2MHz;
 	wire clk_output_aux;
 	wire mosi_output_aux;
 	wire sel_output_aux;
-
-	wire signal_sdo;
-
-	// Señal de latchinput para controlar el gating a la salida
-	wire latch_input;
-
-	// Señal de flag para activar la segunda máquina de estados
-	wire flag_signal;
-
-	// Pongo DYNLATCH y STATLATCH como wire, en vez de como output, ya que si no hay que asignar todos los bits de cada uno a los pines .pcf correspondientes 
+	wire signal_sdo;		
+	wire flag_signal;				// Signal to start switch_clk_1MHz module from switch_clk_2MHz module
 	wire [SIZESRDYN-1:0] DYNLATCH;
 	wire [SIZESRSTAT-1:0] STATLATCH;  
-
 	wire [SIZESRDYN-1:0] DYNCNF;
 	wire [SIZESRSTAT-1:0] STATCNF;
 
-	// Instancio PLL con dos puertos (el A que permite el gating, y el B que saca un reloj continuo)
-	top_pll top_pll_inst(
-		.REFERENCECLK(CLK),
-		.PLLOUTCORE(),
-		.PLLOUTGLOBAL(clk_pll),
-		.RESET(RST_N)
-	);
-
-	// Instanciación del divisor de frecuencia con un factor de 4
+	// Instantiate frequency divider to generate a continuous 2MHz clock (Fin=16MHz, Fout=2MHz, DIV=8)
 	freq_div #(.DIVISOR(8)) divisor_inst (
-		.clk_in(clk_pll),
+		.clk_in(CLK),
 		.RST_N(RST_N),
-		.clk_out(clk_continuous_fast)
+		.clk_out(clk_continuous_2MHz)
 	);
 
-	// Instancio FSM_TEST para activar/desactivar reloj lento
-	FSM_TEST_RAPIDA #(
-		.BIT_SEQUENCE_DIN_INIT(16'h4321),    			// Valor personalizado para el registro dinámico
-		.BIT_SEQUENCE_STAT_INIT(88'hFEDCBA9876543210012345)  // Valor personalizado para el registro estático
-    	) FSM_TEST_inst_RAPIDA(
-		.CLK(clk_pll),					// Rápido continuo
-		.CLK_slow_original(clk_continuous_fast),		// Lento continuo, salida del divisor de frecuencia
-		.CLK_uC_7(clk_out_fast),					// Salida del lento, sólo activo en los estados correspondientes
+	// Instantiate switch_clk_2Mhz to switch on/off the 2MHz clock
+	switch_clk_2MHz #(
+		.DELAY_CYCLES(8),
+		.BIT_SEQUENCE_DIN_INIT(16'h4321),    			
+		.BIT_SEQUENCE_STAT_INIT(88'hFEDCBA9876543210012345) 
+    	) switch_clk_2MHz_inst(
+		.CLK(CLK),					
+		.clk_continuous_2MHz(clk_continuous_2MHz),		
+		.CLK_ON_OFF(clk_out_2MHz),					
 		.RST_N(RST_N),
-		.SEL(aux_selection_fast),
-		.flag_input(1),
+		.SEL(aux_selection_2MHz),
+		.flag_input(1'b1),
 		.flag_output(flag_signal),
-		.MOSI(mosi_fast)
+		.MOSI(mosi_2MHz)
 	);
 
-	// Instanciación del divisor de frecuencia con un factor de 4
+	// Instantiate frequency divider to generate a continuous 1MHz clock (Fin=16MHz, Fout=1MHz, DIV=16)
 	freq_div #(.DIVISOR(16)) divisor_inst_2 (
-		.clk_in(clk_pll),
+		.clk_in(CLK),
 		.RST_N(RST_N),
-		.clk_out(clk_continuous_slow)
+		.clk_out(clk_continuous_1MHz)
 	);
 
-	// Instancio FSM_TEST para activar/desactivar reloj lento
-	FSM_TEST_slow #(
-		.BIT_SEQUENCE_DIN_INIT(16'hABCD),    			// Valor personalizado para el registro dinámico
-		.BIT_SEQUENCE_STAT_INIT(88'h123456789ABCDEF1234567)  // Valor personalizado para el registro estático
-    	) FSM_TEST_inst_slow(
-		.CLK(clk_pll),					// Rápido continuo
-		.CLK_slow_original(clk_continuous_slow),		// Lento continuo, salida del divisor de frecuencia
-		.CLK_uC_7(clk_out_slow),					// Salida del lento, sólo activo en los estados correspondientes
+	// Instantiate switch_clk_2Mhz to switch on/off the 1MHz clock
+	switch_clk_1MHz #(
+		.DELAY_CYCLES(17),
+		.BIT_SEQUENCE_DIN_INIT(16'hABCD),    			
+		.BIT_SEQUENCE_STAT_INIT(88'h123456789ABCDEF1234567)
+    	) switch_clk_1MHz_inst(
+		.CLK(CLK),					
+		.clk_continuous_1MHz(clk_continuous_1MHz),		
+		.CLK_ON_OFF(clk_out_1MHz),					
 		.RST_N(RST_N),
-		.SEL(aux_selection_slow),
+		.SEL(aux_selection_1MHz),
 		.flag_input(flag_signal),
-		.MOSI(mosi_slow)
+		.MOSI(mosi_1MHz)
 	);
 
-	// Selección entre escritura rápida o lenta
-	assign clk_output = flag_signal ? clk_out_slow : clk_out_fast;
-	assign mosi_output = flag_signal ? mosi_slow : mosi_fast;
-	assign sel_output = flag_signal ? aux_selection_slow : aux_selection_fast;
-	//assign s14 = aux_selection_slow;
+	// Select between writing at 2MHz or 1MHz
+	assign clk_output = flag_signal ? clk_out_1MHz : clk_out_2MHz;
+	assign mosi_output = flag_signal ? mosi_1MHz : mosi_2MHz;
+	assign sel_output = flag_signal ? aux_selection_1MHz : aux_selection_2MHz;
+	//assign s14 = aux_selection_1MHz;
 	//assign s13 = aux_selection;
 
-	assign clk_output_aux = (flag_signal) ? clk_out_slow : clk_out_fast;
-	assign mosi_output_aux = (flag_signal) ? mosi_slow : mosi_fast;
-	assign sel_output_aux = (flag_signal) ? aux_selection_slow : aux_selection_fast;
+	// Aux signals to choose between 1MHz or 2MHz clock frequencies
+	assign clk_output_aux = (flag_signal) ? clk_out_1MHz : clk_out_2MHz;
+	assign mosi_output_aux = (flag_signal) ? mosi_1MHz : mosi_2MHz;
+	assign sel_output_aux = (flag_signal) ? aux_selection_1MHz : aux_selection_2MHz;
 
-	assign flag_signal_out = flag_signal;
+	//assign flag_signal_out = flag_signal;
 
-	// Modulo emulador de recepción del chip de Earendel
+	// Erandel analog chip emulator RTL module (to check that the response from the other FPGA is the same that was sent there)
 	config_register_latched_dec config_register_latched_dec_inst(
 		.CLK(clk_output_aux), 
 		.RST_N(RST_N), 
 		.SEL(sel_output_aux), 
 		.SDI(miso_input), 
-		//.SDI(mosi_output_aux),      // simulacion y test en la misma placa
+		//.SDI(mosi_output_aux),      				// Simulation and test in the same hardware platform
 		.SDO(signal_sdo), 
 		.STATCNF(STATCNF), 
 		.DYNCNF(DYNCNF), 
@@ -148,27 +139,27 @@ module ASIC_bridge_top(
 		.ref_elec_en()
 	);
 
-	// Instancia del módulo XOR dyn
+	// Error detection for dynamic register (XOR-based detection)
 	xor_n_bits #(.N(16)) xor_instance_dyn (
 		.a(16'h4321),
 		.b(DYNCNF),
 		.result(xor_out_dyn)
 	);
 
-	// Instancia del módulo XOR stat
+	// Error detection for static register (XOR-based detection)
 	xor_n_bits #(.N(88)) xor_instance_stat (
 		.a(88'hFEDCBA9876543210012345),
 		.b(STATCNF),
 		.result(xor_out_stat)
 	);
 
-	// Asignaciones para la salida	
+/*
+	// Assignments for output to test correct values for DYNCNF and STATCNF	
 	//assign s15 = DYNCNF[7];
 	assign s14 = DYNCNF[10];
 	assign s13 = DYNCNF[9];
 	assign s12 = DYNCNF[8];
 
-/*
 	assign s15 = STATCNF[3];
 	assign s14 = STATCNF[2];
 	assign s13 = STATCNF[1];

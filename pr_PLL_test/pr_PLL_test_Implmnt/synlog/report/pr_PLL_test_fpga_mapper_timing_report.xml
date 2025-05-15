@@ -5,7 +5,7 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 *******************************************************************************************-->
 <report_table display_priority="2" name="Timing Summary">
 <report_link name="Detailed report">
-<data>C:\Users\raul.lora\Documents\prPLL_test\pr_PLL_test\pr_PLL_test_Implmnt\synlog\pr_PLL_test_fpga_mapper.srr</data>
+<data>C:\Users\raul.lora\Documents\ASIC_BRIDGE\pr_PLL_test\pr_PLL_test_Implmnt\synlog\pr_PLL_test_fpga_mapper.srr</data>
 <title>START OF TIMING REPORT</title>
 </report_link>
 <row>
@@ -15,15 +15,9 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <data tcl_name="slack">Slack</data>
 </row>
 <row>
-<data>top|CLK</data>
-<data>1.0 MHz</data>
-<data>NA</data>
-<data>NA</data>
-</row>
-<row>
-<data>System</data>
-<data>135.1 MHz</data>
-<data>114.8 MHz</data>
-<data>-1.307</data>
+<data>ASIC_bridge_top|CLK</data>
+<data>133.9 MHz</data>
+<data>113.9 MHz</data>
+<data>-1.317</data>
 </row>
 </report_table>

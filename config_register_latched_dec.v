@@ -1,9 +1,5 @@
 /*
-* Modulo tomado del codigo que me pasa Piotr
-* Este modulo toma el dato que le entra bit a bit en serie
-* Dependiendo de si está seleccionado el registro dinamico o estatico
-* se encola en uno u otro, después se selecciona el contrario y se
-* vuelca sobre el LATCH correspondiente, dinámico o estático
+* Earendel emulator for the reception of DYNCNF and STATCNF
 */
 module config_register_latched_dec(
 	CLK, 

@@ -1,45 +1,45 @@
-#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\raul.lora\\Documents\\prPLL_test\\pr_PLL_test\\pr_PLL_test_Implmnt\\synwork\\pr_PLL_test_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-I|C:\\Users\\raul.lora\\Documents\\prPLL_test\\pr_PLL_test\\|-I|C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\generic\\sb_ice40.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\raul.lora\\Documents\\ASIC_BRIDGE\\pr_PLL_test\\pr_PLL_test_Implmnt\\synwork\\pr_PLL_test_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-I|C:\\Users\\raul.lora\\Documents\\ASIC_BRIDGE\\pr_PLL_test\\|-I|C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\generic\\sb_ice40.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
 #CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\bin64\\c_ver.exe":1731922776
 #CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\generic\\sb_ice40.v":1731922780
 #CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\hypermods.v":1731922782
 #CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\umr_capim.v":1731922782
 #CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\scemi_objects.v":1731922782
 #CUR:"C:\\lscc\\iCEcube2.2020.12\\synpbase\\lib\\vlog\\scemi_pipes.svh":1731922782
-#CUR:"C:\\Users\\raul.lora\\Documents\\prPLL_test\\top.v":1744295555
-#CUR:"C:\\Users\\raul.lora\\Documents\\prPLL_test\\freq_div.v":1744184754
-#CUR:"C:\\Users\\raul.lora\\Documents\\prPLL_test\\FSM_TEST_slow.v":1744296968
-#CUR:"C:\\Users\\raul.lora\\Documents\\prPLL_test\\config_register_latched_dec.v":1743060640
-#CUR:"C:\\Users\\raul.lora\\Documents\\prPLL_test\\FSM_TEST_RAPIDA.v":1744281163
-#CUR:"C:\\Users\\raul.lora\\Documents\\prPLL_test\\top_pll.v":1744266092
-#CUR:"C:\\Users\\raul.lora\\Documents\\prPLL_test\\xor_n_bits.v":1744295699
-0			"C:\Users\raul.lora\Documents\prPLL_test\top.v" verilog
-1			"C:\Users\raul.lora\Documents\prPLL_test\freq_div.v" verilog
-2			"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_slow.v" verilog
-3			"C:\Users\raul.lora\Documents\prPLL_test\config_register_latched_dec.v" verilog
-4			"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_RAPIDA.v" verilog
-5			"C:\Users\raul.lora\Documents\prPLL_test\top_pll.v" verilog
-6			"C:\Users\raul.lora\Documents\prPLL_test\xor_n_bits.v" verilog
+#CUR:"C:\\Users\\raul.lora\\Documents\\ASIC_BRIDGE\\freq_div.v":1747317471
+#CUR:"C:\\Users\\raul.lora\\Documents\\ASIC_BRIDGE\\config_register_latched_dec.v":1747315116
+#CUR:"C:\\Users\\raul.lora\\Documents\\ASIC_BRIDGE\\xor_n_bits.v":1747317495
+#CUR:"C:\\Users\\raul.lora\\Documents\\ASIC_BRIDGE\\ASIC_bridge_top.v":1747319113
+#CUR:"C:\\Users\\raul.lora\\Documents\\ASIC_BRIDGE\\delay_chain.v":1747317430
+#CUR:"C:\\Users\\raul.lora\\Documents\\ASIC_BRIDGE\\switch_clk_2MHz.v":1747317397
+#CUR:"C:\\Users\\raul.lora\\Documents\\ASIC_BRIDGE\\switch_clk_1MHz.v":1747318408
+0			"C:\Users\raul.lora\Documents\ASIC_BRIDGE\freq_div.v" verilog
+1			"C:\Users\raul.lora\Documents\ASIC_BRIDGE\config_register_latched_dec.v" verilog
+2			"C:\Users\raul.lora\Documents\ASIC_BRIDGE\xor_n_bits.v" verilog
+3			"C:\Users\raul.lora\Documents\ASIC_BRIDGE\ASIC_bridge_top.v" verilog
+4			"C:\Users\raul.lora\Documents\ASIC_BRIDGE\delay_chain.v" verilog
+5			"C:\Users\raul.lora\Documents\ASIC_BRIDGE\switch_clk_2MHz.v" verilog
+6			"C:\Users\raul.lora\Documents\ASIC_BRIDGE\switch_clk_1MHz.v" verilog
 #Dependency Lists(Uses List)
-0 6 3 2 4 1 5
+0 -1
 1 -1
 2 -1
-3 -1
+3 2 1 6 5 0
 4 -1
-5 -1
-6 -1
+5 4
+6 4
 #Dependency Lists(Users Of)
-0 -1
-1 0
-2 0
-3 0
-4 0
-5 0
-6 0
+0 3
+1 3
+2 3
+3 -1
+4 6 5
+5 3
+6 3
 #Design Unit to File Association
-module work top 0
-module work xor_n_bits 6
-module work config_register_latched_dec 3
-module work FSM_TEST_slow 2
-module work FSM_TEST_RAPIDA 4
-module work freq_div 1
-module work top_pll 5
+module work delay_chain 4
+module work ASIC_bridge_top 3
+module work switch_clk_1MHz 6
+module work switch_clk_2MHz 5
+module work xor_n_bits 2
+module work config_register_latched_dec 1
+module work freq_div 0

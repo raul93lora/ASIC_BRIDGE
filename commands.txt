@@ -1,0 +1,19 @@
+cd C:/Users/raul.lora/Documents/ASIC_BRIDGE/simulation
+
+vlib ice40
+vmap ice40 C:/lscc/iCEcube2.2020.12/verilog
+vlog -work ice40 C:/lscc/iCEcube2.2020.12/verilog/*.v
+
+vlog freq_div.v 
+vlog delay_chain.v
+vlog FSM_TEST_slow.v
+vlog config_register_latched_dec.v 
+vlog FSM_TEST_RAPIDA.v 
+vlog xor_n_bits.v 
+vlog ASIC_bridge_top.v
+
+vlog tb_ASIC_bridge_top.sv
+
+vsim -L ice40 work.tb_ASIC_bridge_top
+add wave -r /*
+run -all

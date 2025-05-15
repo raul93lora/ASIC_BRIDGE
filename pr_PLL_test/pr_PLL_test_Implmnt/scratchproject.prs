@@ -1,27 +1,27 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09L+ice40
-#--  Project file C:\Users\raul.lora\Documents\prPLL_test\pr_PLL_test\pr_PLL_test_Implmnt\scratchproject.prs
+#--  Project file C:\Users\raul.lora\Documents\ASIC_BRIDGE\pr_PLL_test\pr_PLL_test_Implmnt\scratchproject.prs
 
 #project files
-add_file -verilog "C:/Users/raul.lora/Documents/prPLL_test/top.v"
-add_file -verilog "C:/Users/raul.lora/Documents/prPLL_test/freq_div.v"
-add_file -verilog "C:/Users/raul.lora/Documents/prPLL_test/FSM_TEST_slow.v"
-add_file -verilog "C:/Users/raul.lora/Documents/prPLL_test/config_register_latched_dec.v"
-add_file -verilog "C:/Users/raul.lora/Documents/prPLL_test/FSM_TEST_RAPIDA.v"
-add_file -verilog "C:/Users/raul.lora/Documents/prPLL_test/top_pll.v"
-add_file -verilog "C:/Users/raul.lora/Documents/prPLL_test/xor_n_bits.v"
+add_file -verilog "C:/Users/raul.lora/Documents/ASIC_BRIDGE/freq_div.v"
+add_file -verilog "C:/Users/raul.lora/Documents/ASIC_BRIDGE/config_register_latched_dec.v"
+add_file -verilog "C:/Users/raul.lora/Documents/ASIC_BRIDGE/xor_n_bits.v"
+add_file -verilog "C:/Users/raul.lora/Documents/ASIC_BRIDGE/ASIC_bridge_top.v"
+add_file -verilog "C:/Users/raul.lora/Documents/ASIC_BRIDGE/delay_chain.v"
+add_file -verilog "C:/Users/raul.lora/Documents/ASIC_BRIDGE/switch_clk_2MHz.v"
+add_file -verilog "C:/Users/raul.lora/Documents/ASIC_BRIDGE/switch_clk_1MHz.v"
 
 
 
 #implementation: "pr_PLL_test_Implmnt"
-impl -add C:\Users\raul.lora\Documents\prPLL_test\pr_PLL_test\pr_PLL_test_Implmnt -type fpga
+impl -add C:\Users\raul.lora\Documents\ASIC_BRIDGE\pr_PLL_test\pr_PLL_test_Implmnt -type fpga
 
 #
 #implementation attributes
 
 set_option -vlog_std v2001
 set_option -project_relative_includes 1
-set_option -include_path {C:/Users/raul.lora/Documents/prPLL_test/pr_PLL_test/}
+set_option -include_path {C:/Users/raul.lora/Documents/ASIC_BRIDGE/pr_PLL_test/}
 
 #device options
 set_option -technology SBTiCE40
@@ -70,5 +70,5 @@ set_option -auto_infer_blackbox 0
 set_option -write_apr_constraint 1
 
 #set result format/file last
-project -result_file "C:/Users/raul.lora/Documents/prPLL_test/pr_PLL_test/pr_PLL_test_Implmnt/pr_PLL_test.edf"
+project -result_file "C:/Users/raul.lora/Documents/ASIC_BRIDGE/pr_PLL_test/pr_PLL_test_Implmnt/pr_PLL_test.edf"
 impl -active "pr_PLL_test_Implmnt"

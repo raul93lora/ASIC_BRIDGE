@@ -1,7 +1,12 @@
+/* 
+* Raul Lora Rivera
+* Module to divide frequency at the output by a particular divider parameter
+*
+*/
 module freq_div #(parameter DIVISOR = 4) (
-    clk_in,  // Reloj de entrada
+    clk_in,  						// Input clock
     RST_N,
-    clk_out  // Reloj de salida dividido
+    clk_out  						// Divided output clock 
 );
 
     input wire clk_in;

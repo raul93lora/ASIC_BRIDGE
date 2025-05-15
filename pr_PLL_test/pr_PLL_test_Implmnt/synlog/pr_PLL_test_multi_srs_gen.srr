@@ -1,14 +1,14 @@
 Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
 @N|Running in 64-bit mode
-File C:\Users\raul.lora\Documents\prPLL_test\pr_PLL_test\pr_PLL_test_Implmnt\synwork\pr_PLL_test_comp.srs changed - recompiling
-@N: NF107 :"C:\Users\raul.lora\Documents\prPLL_test\top.v":5:7:5:9|Selected library: work cell: top view verilog as top level
-@N: NF107 :"C:\Users\raul.lora\Documents\prPLL_test\top.v":5:7:5:9|Selected library: work cell: top view verilog as top level
+File C:\Users\raul.lora\Documents\ASIC_BRIDGE\pr_PLL_test\pr_PLL_test_Implmnt\synwork\pr_PLL_test_comp.srs changed - recompiling
+@N: NF107 :"C:\Users\raul.lora\Documents\ASIC_BRIDGE\ASIC_bridge_top.v":10:7:10:21|Selected library: work cell: ASIC_bridge_top view verilog as top level
+@N: NF107 :"C:\Users\raul.lora\Documents\ASIC_BRIDGE\ASIC_bridge_top.v":10:7:10:21|Selected library: work cell: ASIC_bridge_top view verilog as top level
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Apr 10 16:56:15 2025
+# Thu May 15 16:29:07 2025
 
 ###########################################################]

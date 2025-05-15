@@ -9,50 +9,99 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/Users/raul.lora/Documents/prPLL_test/simulation
-vconfig_register_latched_dec
-Z1 !s110 1744281760
+vASIC_bridge_top
+Z1 !s110 1747319235
 !i10b 1
-!s100 dCiUzQTjJZP`=En]n6Qi]3
+!s100 V3JgCS4i3l_C:P:LnEWjc0
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IeT]l<kYNQ4J<BJ_00_;HS3
-R0
-w1743060640
-8config_register_latched_dec.v
-Fconfig_register_latched_dec.v
-!i122 192
-L0 8 147
-Z3 VDg1SIo80bB@j0V0VzS_@n1
-Z4 OT;L;2020.3;71
+I_Jk[DB?DD6LCI^;=7Glm`2
+Z3 dC:/Users/raul.lora/Documents/ASIC_BRIDGE/simulation
+w1747319221
+8ASIC_bridge_top.v
+FASIC_bridge_top.v
+!i122 370
+L0 10 161
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OT;L;2020.3;71
 r1
 !s85 0
 31
-Z5 !s108 1744281760.000000
-!s107 tb_top.sv|freq_div.v|config_register_latched_dec.v|FSM_TEST_slow.v|FSM_TEST_RAPIDA.v|top_pll.v|top.v|
-Z6 !s90 -reportprogress|300|top.v|top_pll.v|FSM_TEST_RAPIDA.v|FSM_TEST_slow.v|config_register_latched_dec.v|freq_div.v|tb_top.sv|
+Z6 !s108 1747319235.000000
+!s107 ASIC_bridge_top.v|
+!s90 -reportprogress|300|ASIC_bridge_top.v|
 !s101 -O0
 !i113 1
 o-O0
 Z7 tCvgOpt 0
-vfreq_div
+n@a@s@i@c_bridge_top
+vconfig_register_latched_dec
 R1
 !i10b 1
-!s100 H;iTZOmD;nSXa2@T]>@N70
+!s100 JYoM]M1ZJ^?GAH`6J3NB>2
 R2
-ITEA=SZiHfaJm18n@z9KQ?2
-R0
-w1744184754
-8freq_div.v
-Ffreq_div.v
-!i122 192
-L0 1 25
+INikTo=aP>MooeLCZJHUPi3
 R3
+w1747315116
+8config_register_latched_dec.v
+Fconfig_register_latched_dec.v
+!i122 367
+L0 4 147
 R4
+R5
 r1
 !s85 0
 31
-R5
-Z8 !s107 tb_top.sv|freq_div.v|config_register_latched_dec.v|FSM_TEST_slow.v|FSM_TEST_RAPIDA.v|top_pll.v|top.v|
 R6
+!s107 config_register_latched_dec.v|
+!s90 -reportprogress|300|config_register_latched_dec.v|
+!s101 -O0
+!i113 1
+o-O0
+R7
+vdelay_chain
+R1
+!i10b 1
+!s100 ijQkNI>P>VC`^8FbQb?0V2
+R2
+IQfP3gYDBmV?W:La2FMz662
+R3
+w1747317430
+8delay_chain.v
+Fdelay_chain.v
+!i122 365
+L0 6 28
+R4
+R5
+r1
+!s85 0
+31
+Z8 !s108 1747319234.000000
+!s107 delay_chain.v|
+!s90 -reportprogress|300|delay_chain.v|
+!s101 -O0
+!i113 1
+o-O0
+R7
+vfreq_div
+!s110 1747319234
+!i10b 1
+!s100 Mg;6549=6z`fW=DMK<HCS0
+R2
+I;;Nz`jP8:COzz_?Zoa;@R0
+R3
+w1747317471
+8freq_div.v
+Ffreq_div.v
+!i122 364
+L0 6 25
+R4
+R5
+r1
+!s85 0
+31
+R8
+!s107 freq_div.v|
+!s90 -reportprogress|300|freq_div.v|
 !s101 -O0
 !i113 1
 o-O0
@@ -69,8 +118,8 @@ Z9 8FSM_TEST.v
 Z10 FFSM_TEST.v
 !i122 14
 L0 4 130
-R3
 R4
+R5
 r1
 !s85 0
 31
@@ -93,8 +142,8 @@ R9
 R10
 !i122 81
 L0 4 196
-R3
 R4
+R5
 r1
 !s85 0
 31
@@ -118,8 +167,8 @@ w1743676357
 FFSM_TEST_fast.v
 !i122 122
 L0 4 156
-R3
 R4
+R5
 r1
 !s85 0
 31
@@ -132,50 +181,50 @@ o-O0
 R7
 n@f@s@m_@t@e@s@t_fast
 vFSM_TEST_RAPIDA
-R1
+Z11 !s110 1747309543
 !i10b 1
-!s100 if21kEGf^bOQ<X4;33ClG2
+!s100 i[;L4mTUoZYTjzIiL@[Y<3
 R2
-IZjEoG9gi^kXjEnL[_R6d]0
-R0
-w1744281163
+I1?V=MW_GU_o75b8R6L`ZC2
+R3
+w1747309263
 8FSM_TEST_RAPIDA.v
 FFSM_TEST_RAPIDA.v
-!i122 192
-L0 4 229
-R3
+!i122 285
+L0 4 186
 R4
+R5
 r1
 !s85 0
 31
-R5
-R8
-R6
+Z12 !s108 1747309543.000000
+!s107 FSM_TEST_RAPIDA.v|
+!s90 -reportprogress|300|FSM_TEST_RAPIDA.v|
 !s101 -O0
 !i113 1
 o-O0
 R7
 n@f@s@m_@t@e@s@t_@r@a@p@i@d@a
 vFSM_TEST_slow
-R1
+R11
 !i10b 1
-!s100 B6F7;8dPdY]fXI5oicK:j2
+!s100 @W2VC17R4[n6Ah<kOaZIn2
 R2
-IeU2a?b>?P0ePi_n:373DF2
-R0
-w1744281652
+ISe^G;WlSNE;]1IJ?T8PK11
+R3
+w1747309231
 8FSM_TEST_slow.v
 FFSM_TEST_slow.v
-!i122 192
-L0 4 270
-R3
+!i122 283
+L0 4 178
 R4
+R5
 r1
 !s85 0
 31
-R5
-R8
-R6
+R12
+!s107 FSM_TEST_slow.v|
+!s90 -reportprogress|300|FSM_TEST_slow.v|
 !s101 -O0
 !i113 1
 o-O0
@@ -193,8 +242,8 @@ w1744275796
 Freset_extender.v
 !i122 180
 L0 1 35
-R3
 R4
+R5
 r1
 !s85 0
 31
@@ -205,9 +254,86 @@ r1
 !i113 1
 o-O0
 R7
-vtb_top
-DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+vswitch_clk_1MHz
 R1
+!i10b 1
+!s100 HCZ=m6C9LIl?XmkHi_KmZ2
+R2
+I[9[Be=BfY@ZL^0R=b6Tkm2
+R3
+w1747318408
+8switch_clk_1MHz.v
+Fswitch_clk_1MHz.v
+!i122 366
+L0 6 179
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 switch_clk_1MHz.v|
+!s90 -reportprogress|300|switch_clk_1MHz.v|
+!s101 -O0
+!i113 1
+o-O0
+R7
+nswitch_clk_1@m@hz
+vswitch_clk_2MHz
+R1
+!i10b 1
+!s100 m;[HEP[=<U`K>f0GYXGcU1
+R2
+IcUcRl6K38Ni2Af20O@gE]1
+R3
+w1747317397
+8switch_clk_2MHz.v
+Fswitch_clk_2MHz.v
+!i122 368
+L0 6 187
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 switch_clk_2MHz.v|
+!s90 -reportprogress|300|switch_clk_2MHz.v|
+!s101 -O0
+!i113 1
+o-O0
+R7
+nswitch_clk_2@m@hz
+vtb_ASIC_bridge_top
+Z13 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1747319236
+!i10b 1
+!s100 BIEmceLmzSDj5e<BJkkmh2
+R2
+I`;HEXHUG^klM2DbFVX`:l2
+S1
+R3
+w1747318785
+8tb_ASIC_bridge_top.sv
+Ftb_ASIC_bridge_top.sv
+!i122 371
+L0 3 61
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 tb_ASIC_bridge_top.sv|
+!s90 -reportprogress|300|tb_ASIC_bridge_top.sv|
+!s101 -O0
+!i113 1
+o-O0
+R7
+ntb_@a@s@i@c_bridge_top
+vtb_top
+R13
+Z14 !s110 1744281760
 !i10b 1
 !s100 1ciBKRFFZk[Y0lZEBif]_2
 R2
@@ -219,20 +345,20 @@ w1744182714
 Ftb_top.sv
 !i122 192
 L0 3 57
-R3
 R4
+R5
 r1
 !s85 0
 31
-R5
-R8
-R6
+Z15 !s108 1744281760.000000
+Z16 !s107 tb_top.sv|freq_div.v|config_register_latched_dec.v|FSM_TEST_slow.v|FSM_TEST_RAPIDA.v|top_pll.v|top.v|
+Z17 !s90 -reportprogress|300|top.v|top_pll.v|FSM_TEST_RAPIDA.v|FSM_TEST_slow.v|config_register_latched_dec.v|freq_div.v|tb_top.sv|
 !s101 -O0
 !i113 1
 o-O0
 R7
 vtop
-R1
+R14
 !i10b 1
 !s100 :QK2La^Q37dd9c2PkAKX[1
 R2
@@ -243,20 +369,20 @@ w1744281755
 Ftop.v
 !i122 192
 L0 5 158
-R3
 R4
+R5
 r1
 !s85 0
 31
-R5
-R8
-R6
+R15
+R16
+R17
 !s101 -O0
 !i113 1
 o-O0
 R7
 vtop_pll
-R1
+R14
 !i10b 1
 !s100 ?ETiMLXlg]LVM`a`<<]Pl0
 R2
@@ -267,14 +393,38 @@ w1744266092
 Ftop_pll.v
 !i122 192
 L0 1 38
-R3
 R4
+R5
 r1
 !s85 0
 31
+R15
+R16
+R17
+!s101 -O0
+!i113 1
+o-O0
+R7
+vxor_n_bits
+R1
+!i10b 1
+!s100 ``GgQJC`l:LQS_]<FOFT>2
+R2
+IL3]mI4[;0g1NCXTkfmdi20
+R3
+w1747317495
+8xor_n_bits.v
+Fxor_n_bits.v
+!i122 369
+L0 6 15
+R4
 R5
-R8
+r1
+!s85 0
+31
 R6
+!s107 xor_n_bits.v|
+!s90 -reportprogress|300|xor_n_bits.v|
 !s101 -O0
 !i113 1
 o-O0

@@ -1,0 +1,529 @@
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_13_LC_1_17_1 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[13], switch_clk_2MHz_inst.bit_sequence_stat[13] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_80_LC_1_17_2 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[80], switch_clk_2MHz_inst.bit_sequence_stat[80] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_14_LC_1_17_4 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[14], switch_clk_2MHz_inst.bit_sequence_stat[14] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_12_LC_1_17_6 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[12], switch_clk_2MHz_inst.bit_sequence_stat[12] }
+clb_pack LT_1_17 { switch_clk_2MHz_inst.bit_sequence_stat_13_LC_1_17_1, switch_clk_2MHz_inst.bit_sequence_stat_80_LC_1_17_2, switch_clk_2MHz_inst.bit_sequence_stat_14_LC_1_17_4, switch_clk_2MHz_inst.bit_sequence_stat_12_LC_1_17_6 }
+set_location LT_1_17 1 17
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_55_LC_1_18_0 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[55], switch_clk_2MHz_inst.bit_sequence_stat[55] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_79_LC_1_18_1 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[79], switch_clk_2MHz_inst.bit_sequence_stat[79] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_11_LC_1_18_2 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[11], switch_clk_2MHz_inst.bit_sequence_stat[11] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_78_LC_1_18_3 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[78], switch_clk_2MHz_inst.bit_sequence_stat[78] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_10_LC_1_18_6 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[10], switch_clk_2MHz_inst.bit_sequence_stat[10] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_56_LC_1_18_7 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[56], switch_clk_2MHz_inst.bit_sequence_stat[56] }
+clb_pack LT_1_18 { switch_clk_2MHz_inst.bit_sequence_stat_55_LC_1_18_0, switch_clk_2MHz_inst.bit_sequence_stat_79_LC_1_18_1, switch_clk_2MHz_inst.bit_sequence_stat_11_LC_1_18_2, switch_clk_2MHz_inst.bit_sequence_stat_78_LC_1_18_3, switch_clk_2MHz_inst.bit_sequence_stat_10_LC_1_18_6, switch_clk_2MHz_inst.bit_sequence_stat_56_LC_1_18_7 }
+set_location LT_1_18 1 18
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_36_LC_1_19_0 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[36], switch_clk_2MHz_inst.bit_sequence_stat[36] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_76_LC_1_19_1 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[76], switch_clk_2MHz_inst.bit_sequence_stat[76] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_53_LC_1_19_2 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[53], switch_clk_2MHz_inst.bit_sequence_stat[53] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_77_LC_1_19_4 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[77], switch_clk_2MHz_inst.bit_sequence_stat[77] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_37_LC_1_19_5 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[37], switch_clk_2MHz_inst.bit_sequence_stat[37] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_54_LC_1_19_6 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[54], switch_clk_2MHz_inst.bit_sequence_stat[54] }
+clb_pack LT_1_19 { switch_clk_2MHz_inst.bit_sequence_stat_36_LC_1_19_0, switch_clk_2MHz_inst.bit_sequence_stat_76_LC_1_19_1, switch_clk_2MHz_inst.bit_sequence_stat_53_LC_1_19_2, switch_clk_2MHz_inst.bit_sequence_stat_77_LC_1_19_4, switch_clk_2MHz_inst.bit_sequence_stat_37_LC_1_19_5, switch_clk_2MHz_inst.bit_sequence_stat_54_LC_1_19_6 }
+set_location LT_1_19 1 19
+ble_pack switch_clk_2MHz_inst.bit_sequence_din_5_LC_1_20_0 { switch_clk_2MHz_inst.bit_sequence_din_RNO[5], switch_clk_2MHz_inst.bit_sequence_din[5] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_din_6_LC_1_20_1 { switch_clk_2MHz_inst.bit_sequence_din_RNO[6], switch_clk_2MHz_inst.bit_sequence_din[6] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_din_7_LC_1_20_2 { switch_clk_2MHz_inst.bit_sequence_din_RNO[7], switch_clk_2MHz_inst.bit_sequence_din[7] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_din_9_LC_1_20_6 { switch_clk_2MHz_inst.bit_sequence_din_RNO[9], switch_clk_2MHz_inst.bit_sequence_din[9] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_din_8_LC_1_20_7 { switch_clk_2MHz_inst.bit_sequence_din_RNO[8], switch_clk_2MHz_inst.bit_sequence_din[8] }
+clb_pack LT_1_20 { switch_clk_2MHz_inst.bit_sequence_din_5_LC_1_20_0, switch_clk_2MHz_inst.bit_sequence_din_6_LC_1_20_1, switch_clk_2MHz_inst.bit_sequence_din_7_LC_1_20_2, switch_clk_2MHz_inst.bit_sequence_din_9_LC_1_20_6, switch_clk_2MHz_inst.bit_sequence_din_8_LC_1_20_7 }
+set_location LT_1_20 1 20
+ble_pack RST_N_ibuf_RNIBJGC_LC_1_21_5 { RST_N_ibuf_RNIBJGC }
+clb_pack LT_1_21 { RST_N_ibuf_RNIBJGC_LC_1_21_5 }
+set_location LT_1_21 1 21
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_58_LC_2_17_0 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[58], switch_clk_2MHz_inst.bit_sequence_stat[58] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_74_LC_2_17_3 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[74], switch_clk_2MHz_inst.bit_sequence_stat[74] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_15_LC_2_17_4 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[15], switch_clk_2MHz_inst.bit_sequence_stat[15] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_16_LC_2_17_5 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[16], switch_clk_2MHz_inst.bit_sequence_stat[16] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_69_LC_2_17_6 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[69], switch_clk_2MHz_inst.bit_sequence_stat[69] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_73_LC_2_17_7 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[73], switch_clk_2MHz_inst.bit_sequence_stat[73] }
+clb_pack LT_2_17 { switch_clk_2MHz_inst.bit_sequence_stat_58_LC_2_17_0, switch_clk_2MHz_inst.bit_sequence_stat_74_LC_2_17_3, switch_clk_2MHz_inst.bit_sequence_stat_15_LC_2_17_4, switch_clk_2MHz_inst.bit_sequence_stat_16_LC_2_17_5, switch_clk_2MHz_inst.bit_sequence_stat_69_LC_2_17_6, switch_clk_2MHz_inst.bit_sequence_stat_73_LC_2_17_7 }
+set_location LT_2_17 2 17
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_44_LC_2_18_1 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[44], switch_clk_2MHz_inst.bit_sequence_stat[44] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_28_LC_2_18_2 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[28], switch_clk_2MHz_inst.bit_sequence_stat[28] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_9_LC_2_18_3 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[9], switch_clk_2MHz_inst.bit_sequence_stat[9] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_57_LC_2_18_4 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[57], switch_clk_2MHz_inst.bit_sequence_stat[57] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_27_LC_2_18_5 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[27], switch_clk_2MHz_inst.bit_sequence_stat[27] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_45_LC_2_18_6 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[45], switch_clk_2MHz_inst.bit_sequence_stat[45] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_26_LC_2_18_7 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[26], switch_clk_2MHz_inst.bit_sequence_stat[26] }
+clb_pack LT_2_18 { switch_clk_2MHz_inst.bit_sequence_stat_44_LC_2_18_1, switch_clk_2MHz_inst.bit_sequence_stat_28_LC_2_18_2, switch_clk_2MHz_inst.bit_sequence_stat_9_LC_2_18_3, switch_clk_2MHz_inst.bit_sequence_stat_57_LC_2_18_4, switch_clk_2MHz_inst.bit_sequence_stat_27_LC_2_18_5, switch_clk_2MHz_inst.bit_sequence_stat_45_LC_2_18_6, switch_clk_2MHz_inst.bit_sequence_stat_26_LC_2_18_7 }
+set_location LT_2_18 2 18
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_35_LC_2_19_0 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[35], switch_clk_2MHz_inst.bit_sequence_stat[35] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_34_LC_2_19_1 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[34], switch_clk_2MHz_inst.bit_sequence_stat[34] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_38_LC_2_19_2 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[38], switch_clk_2MHz_inst.bit_sequence_stat[38] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_43_LC_2_19_3 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[43], switch_clk_2MHz_inst.bit_sequence_stat[43] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_52_LC_2_19_4 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[52], switch_clk_2MHz_inst.bit_sequence_stat[52] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_75_LC_2_19_5 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[75], switch_clk_2MHz_inst.bit_sequence_stat[75] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_17_LC_2_19_6 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[17], switch_clk_2MHz_inst.bit_sequence_stat[17] }
+clb_pack LT_2_19 { switch_clk_2MHz_inst.bit_sequence_stat_35_LC_2_19_0, switch_clk_2MHz_inst.bit_sequence_stat_34_LC_2_19_1, switch_clk_2MHz_inst.bit_sequence_stat_38_LC_2_19_2, switch_clk_2MHz_inst.bit_sequence_stat_43_LC_2_19_3, switch_clk_2MHz_inst.bit_sequence_stat_52_LC_2_19_4, switch_clk_2MHz_inst.bit_sequence_stat_75_LC_2_19_5, switch_clk_2MHz_inst.bit_sequence_stat_17_LC_2_19_6 }
+set_location LT_2_19 2 19
+ble_pack switch_clk_2MHz_inst.counter_idle_RNIQLMJ_5_LC_2_20_0 { switch_clk_2MHz_inst.counter_idle_RNIQLMJ[5] }
+ble_pack switch_clk_2MHz_inst.current_state_fast_RNIDHKD1_1_LC_2_20_1 { switch_clk_2MHz_inst.current_state_fast_RNIDHKD1[1] }
+ble_pack switch_clk_2MHz_inst.current_state_fast_RNIJRTP_1_LC_2_20_2 { switch_clk_2MHz_inst.current_state_fast_RNIJRTP[1] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_din_0_LC_2_20_3 { switch_clk_2MHz_inst.bit_sequence_din_RNO[0], switch_clk_2MHz_inst.bit_sequence_din[0] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_din_1_LC_2_20_4 { switch_clk_2MHz_inst.bit_sequence_din_RNO[1], switch_clk_2MHz_inst.bit_sequence_din[1] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_din_2_LC_2_20_5 { switch_clk_2MHz_inst.bit_sequence_din_RNO[2], switch_clk_2MHz_inst.bit_sequence_din[2] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_din_3_LC_2_20_6 { switch_clk_2MHz_inst.bit_sequence_din_RNO[3], switch_clk_2MHz_inst.bit_sequence_din[3] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_din_4_LC_2_20_7 { switch_clk_2MHz_inst.bit_sequence_din_RNO[4], switch_clk_2MHz_inst.bit_sequence_din[4] }
+clb_pack LT_2_20 { switch_clk_2MHz_inst.counter_idle_RNIQLMJ_5_LC_2_20_0, switch_clk_2MHz_inst.current_state_fast_RNIDHKD1_1_LC_2_20_1, switch_clk_2MHz_inst.current_state_fast_RNIJRTP_1_LC_2_20_2, switch_clk_2MHz_inst.bit_sequence_din_0_LC_2_20_3, switch_clk_2MHz_inst.bit_sequence_din_1_LC_2_20_4, switch_clk_2MHz_inst.bit_sequence_din_2_LC_2_20_5, switch_clk_2MHz_inst.bit_sequence_din_3_LC_2_20_6, switch_clk_2MHz_inst.bit_sequence_din_4_LC_2_20_7 }
+set_location LT_2_20 2 20
+ble_pack switch_clk_2MHz_inst.bit_sequence_din_13_LC_2_21_0 { switch_clk_2MHz_inst.bit_sequence_din_RNO[13], switch_clk_2MHz_inst.bit_sequence_din[13] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_din_14_LC_2_21_1 { switch_clk_2MHz_inst.bit_sequence_din_RNO[14], switch_clk_2MHz_inst.bit_sequence_din[14] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_din_15_LC_2_21_2 { switch_clk_2MHz_inst.bit_sequence_din_RNO[15], switch_clk_2MHz_inst.bit_sequence_din[15] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_din_12_LC_2_21_3 { switch_clk_2MHz_inst.bit_sequence_din_RNO[12], switch_clk_2MHz_inst.bit_sequence_din[12] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_din_10_LC_2_21_4 { switch_clk_2MHz_inst.bit_sequence_din_RNO[10], switch_clk_2MHz_inst.bit_sequence_din[10] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_din_11_LC_2_21_6 { switch_clk_2MHz_inst.bit_sequence_din_RNO[11], switch_clk_2MHz_inst.bit_sequence_din[11] }
+clb_pack LT_2_21 { switch_clk_2MHz_inst.bit_sequence_din_13_LC_2_21_0, switch_clk_2MHz_inst.bit_sequence_din_14_LC_2_21_1, switch_clk_2MHz_inst.bit_sequence_din_15_LC_2_21_2, switch_clk_2MHz_inst.bit_sequence_din_12_LC_2_21_3, switch_clk_2MHz_inst.bit_sequence_din_10_LC_2_21_4, switch_clk_2MHz_inst.bit_sequence_din_11_LC_2_21_6 }
+set_location LT_2_21 2 21
+ble_pack switch_clk_1MHz_inst.bit_sequence_din_3_LC_2_22_0 { switch_clk_1MHz_inst.bit_sequence_din_RNO[3], switch_clk_1MHz_inst.bit_sequence_din[3] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_din_6_LC_2_22_2 { switch_clk_1MHz_inst.bit_sequence_din_RNO[6], switch_clk_1MHz_inst.bit_sequence_din[6] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_din_0_LC_2_22_3 { switch_clk_1MHz_inst.bit_sequence_din_RNO[0], switch_clk_1MHz_inst.bit_sequence_din[0] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_din_7_LC_2_22_4 { switch_clk_1MHz_inst.bit_sequence_din_RNO[7], switch_clk_1MHz_inst.bit_sequence_din[7] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_din_2_LC_2_22_5 { switch_clk_1MHz_inst.bit_sequence_din_RNO[2], switch_clk_1MHz_inst.bit_sequence_din[2] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_din_8_LC_2_22_6 { switch_clk_1MHz_inst.bit_sequence_din_RNO[8], switch_clk_1MHz_inst.bit_sequence_din[8] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_din_1_LC_2_22_7 { switch_clk_1MHz_inst.bit_sequence_din_RNO[1], switch_clk_1MHz_inst.bit_sequence_din[1] }
+clb_pack LT_2_22 { switch_clk_1MHz_inst.bit_sequence_din_3_LC_2_22_0, switch_clk_1MHz_inst.bit_sequence_din_6_LC_2_22_2, switch_clk_1MHz_inst.bit_sequence_din_0_LC_2_22_3, switch_clk_1MHz_inst.bit_sequence_din_7_LC_2_22_4, switch_clk_1MHz_inst.bit_sequence_din_2_LC_2_22_5, switch_clk_1MHz_inst.bit_sequence_din_8_LC_2_22_6, switch_clk_1MHz_inst.bit_sequence_din_1_LC_2_22_7 }
+set_location LT_2_22 2 22
+ble_pack switch_clk_1MHz_inst.bit_sequence_din_4_LC_2_23_3 { switch_clk_1MHz_inst.bit_sequence_din_RNO[4], switch_clk_1MHz_inst.bit_sequence_din[4] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_din_5_LC_2_23_6 { switch_clk_1MHz_inst.bit_sequence_din_RNO[5], switch_clk_1MHz_inst.bit_sequence_din[5] }
+clb_pack LT_2_23 { switch_clk_1MHz_inst.bit_sequence_din_4_LC_2_23_3, switch_clk_1MHz_inst.bit_sequence_din_5_LC_2_23_6 }
+set_location LT_2_23 2 23
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_64_LC_3_17_0 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[64], switch_clk_2MHz_inst.bit_sequence_stat[64] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_22_LC_3_17_3 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[22], switch_clk_2MHz_inst.bit_sequence_stat[22] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_68_LC_3_17_4 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[68], switch_clk_2MHz_inst.bit_sequence_stat[68] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_81_LC_3_17_5 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[81], switch_clk_2MHz_inst.bit_sequence_stat[81] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_65_LC_3_17_6 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[65], switch_clk_2MHz_inst.bit_sequence_stat[65] }
+clb_pack LT_3_17 { switch_clk_2MHz_inst.bit_sequence_stat_64_LC_3_17_0, switch_clk_2MHz_inst.bit_sequence_stat_22_LC_3_17_3, switch_clk_2MHz_inst.bit_sequence_stat_68_LC_3_17_4, switch_clk_2MHz_inst.bit_sequence_stat_81_LC_3_17_5, switch_clk_2MHz_inst.bit_sequence_stat_65_LC_3_17_6 }
+set_location LT_3_17 3 17
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_66_LC_3_18_0 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[66], switch_clk_2MHz_inst.bit_sequence_stat[66] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_31_LC_3_18_1 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[31], switch_clk_2MHz_inst.bit_sequence_stat[31] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_8_LC_3_18_2 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[8], switch_clk_2MHz_inst.bit_sequence_stat[8] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_21_LC_3_18_3 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[21], switch_clk_2MHz_inst.bit_sequence_stat[21] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_67_LC_3_18_4 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[67], switch_clk_2MHz_inst.bit_sequence_stat[67] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_30_LC_3_18_5 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[30], switch_clk_2MHz_inst.bit_sequence_stat[30] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_50_LC_3_18_6 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[50], switch_clk_2MHz_inst.bit_sequence_stat[50] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_29_LC_3_18_7 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[29], switch_clk_2MHz_inst.bit_sequence_stat[29] }
+clb_pack LT_3_18 { switch_clk_2MHz_inst.bit_sequence_stat_66_LC_3_18_0, switch_clk_2MHz_inst.bit_sequence_stat_31_LC_3_18_1, switch_clk_2MHz_inst.bit_sequence_stat_8_LC_3_18_2, switch_clk_2MHz_inst.bit_sequence_stat_21_LC_3_18_3, switch_clk_2MHz_inst.bit_sequence_stat_67_LC_3_18_4, switch_clk_2MHz_inst.bit_sequence_stat_30_LC_3_18_5, switch_clk_2MHz_inst.bit_sequence_stat_50_LC_3_18_6, switch_clk_2MHz_inst.bit_sequence_stat_29_LC_3_18_7 }
+set_location LT_3_18 3 18
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_39_LC_3_19_0 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[39], switch_clk_2MHz_inst.bit_sequence_stat[39] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_20_LC_3_19_1 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[20], switch_clk_2MHz_inst.bit_sequence_stat[20] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_19_LC_3_19_2 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[19], switch_clk_2MHz_inst.bit_sequence_stat[19] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_33_LC_3_19_3 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[33], switch_clk_2MHz_inst.bit_sequence_stat[33] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_32_LC_3_19_4 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[32], switch_clk_2MHz_inst.bit_sequence_stat[32] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_42_LC_3_19_5 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[42], switch_clk_2MHz_inst.bit_sequence_stat[42] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_18_LC_3_19_6 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[18], switch_clk_2MHz_inst.bit_sequence_stat[18] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_51_LC_3_19_7 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[51], switch_clk_2MHz_inst.bit_sequence_stat[51] }
+clb_pack LT_3_19 { switch_clk_2MHz_inst.bit_sequence_stat_39_LC_3_19_0, switch_clk_2MHz_inst.bit_sequence_stat_20_LC_3_19_1, switch_clk_2MHz_inst.bit_sequence_stat_19_LC_3_19_2, switch_clk_2MHz_inst.bit_sequence_stat_33_LC_3_19_3, switch_clk_2MHz_inst.bit_sequence_stat_32_LC_3_19_4, switch_clk_2MHz_inst.bit_sequence_stat_42_LC_3_19_5, switch_clk_2MHz_inst.bit_sequence_stat_18_LC_3_19_6, switch_clk_2MHz_inst.bit_sequence_stat_51_LC_3_19_7 }
+set_location LT_3_19 3 19
+ble_pack switch_clk_2MHz_inst.delay_inst.delay_reg_1_LC_3_20_1 { switch_clk_2MHz_inst.delay_inst.delay_reg_1_THRU_LUT4_0, switch_clk_2MHz_inst.delay_inst.delay_reg[1] }
+ble_pack switch_clk_2MHz_inst.aux_CLK_LC_3_20_2 { switch_clk_2MHz_inst.aux_CLK_RNO, switch_clk_2MHz_inst.aux_CLK }
+ble_pack switch_clk_2MHz_inst.delay_inst.delay_reg_0_LC_3_20_4 { switch_clk_2MHz_inst.delay_inst.delay_reg_0_THRU_LUT4_0, switch_clk_2MHz_inst.delay_inst.delay_reg[0] }
+ble_pack switch_clk_2MHz_inst.delay_inst.delay_reg_2_LC_3_20_6 { switch_clk_2MHz_inst.delay_inst.delay_reg_2_THRU_LUT4_0, switch_clk_2MHz_inst.delay_inst.delay_reg[2] }
+clb_pack LT_3_20 { switch_clk_2MHz_inst.delay_inst.delay_reg_1_LC_3_20_1, switch_clk_2MHz_inst.aux_CLK_LC_3_20_2, switch_clk_2MHz_inst.delay_inst.delay_reg_0_LC_3_20_4, switch_clk_2MHz_inst.delay_inst.delay_reg_2_LC_3_20_6 }
+set_location LT_3_20 3 20
+ble_pack switch_clk_2MHz_inst.counter_idle_0_LC_3_21_0 { switch_clk_2MHz_inst.counter_idle_RNO[0], switch_clk_2MHz_inst.counter_idle[0], switch_clk_2MHz_inst.counter_idle_cry_c[0] }
+ble_pack switch_clk_2MHz_inst.counter_idle_1_LC_3_21_1 { switch_clk_2MHz_inst.counter_idle_RNO[1], switch_clk_2MHz_inst.counter_idle[1], switch_clk_2MHz_inst.counter_idle_cry_c[1] }
+ble_pack switch_clk_2MHz_inst.counter_idle_2_LC_3_21_2 { switch_clk_2MHz_inst.counter_idle_RNO[2], switch_clk_2MHz_inst.counter_idle[2], switch_clk_2MHz_inst.counter_idle_cry_c[2] }
+ble_pack switch_clk_2MHz_inst.counter_idle_3_LC_3_21_3 { switch_clk_2MHz_inst.counter_idle_RNO[3], switch_clk_2MHz_inst.counter_idle[3], switch_clk_2MHz_inst.counter_idle_cry_c[3] }
+ble_pack switch_clk_2MHz_inst.counter_idle_4_LC_3_21_4 { switch_clk_2MHz_inst.counter_idle_RNO[4], switch_clk_2MHz_inst.counter_idle[4], switch_clk_2MHz_inst.counter_idle_cry_c[4] }
+ble_pack switch_clk_2MHz_inst.counter_idle_5_LC_3_21_5 { switch_clk_2MHz_inst.counter_idle_RNO[5], switch_clk_2MHz_inst.counter_idle[5] }
+clb_pack LT_3_21 { switch_clk_2MHz_inst.counter_idle_0_LC_3_21_0, switch_clk_2MHz_inst.counter_idle_1_LC_3_21_1, switch_clk_2MHz_inst.counter_idle_2_LC_3_21_2, switch_clk_2MHz_inst.counter_idle_3_LC_3_21_3, switch_clk_2MHz_inst.counter_idle_4_LC_3_21_4, switch_clk_2MHz_inst.counter_idle_5_LC_3_21_5 }
+set_location LT_3_21 3 21
+ble_pack switch_clk_1MHz_inst.bit_sequence_din_10_LC_3_22_0 { switch_clk_1MHz_inst.bit_sequence_din_RNO[10], switch_clk_1MHz_inst.bit_sequence_din[10] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_din_9_LC_3_22_1 { switch_clk_1MHz_inst.bit_sequence_din_RNO[9], switch_clk_1MHz_inst.bit_sequence_din[9] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_din_12_LC_3_22_2 { switch_clk_1MHz_inst.bit_sequence_din_RNO[12], switch_clk_1MHz_inst.bit_sequence_din[12] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_din_15_LC_3_22_3 { switch_clk_1MHz_inst.bit_sequence_din_RNO[15], switch_clk_1MHz_inst.bit_sequence_din[15] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_din_11_LC_3_22_4 { switch_clk_1MHz_inst.bit_sequence_din_RNO[11], switch_clk_1MHz_inst.bit_sequence_din[11] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_din_14_LC_3_22_5 { switch_clk_1MHz_inst.bit_sequence_din_RNO[14], switch_clk_1MHz_inst.bit_sequence_din[14] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_din_13_LC_3_22_6 { switch_clk_1MHz_inst.bit_sequence_din_RNO[13], switch_clk_1MHz_inst.bit_sequence_din[13] }
+clb_pack LT_3_22 { switch_clk_1MHz_inst.bit_sequence_din_10_LC_3_22_0, switch_clk_1MHz_inst.bit_sequence_din_9_LC_3_22_1, switch_clk_1MHz_inst.bit_sequence_din_12_LC_3_22_2, switch_clk_1MHz_inst.bit_sequence_din_15_LC_3_22_3, switch_clk_1MHz_inst.bit_sequence_din_11_LC_3_22_4, switch_clk_1MHz_inst.bit_sequence_din_14_LC_3_22_5, switch_clk_1MHz_inst.bit_sequence_din_13_LC_3_22_6 }
+set_location LT_3_22 3 22
+ble_pack switch_clk_1MHz_inst.counter_stat_RNIIHP11_6_LC_3_23_0 { switch_clk_1MHz_inst.counter_stat_RNIIHP11[6] }
+ble_pack switch_clk_1MHz_inst.current_state_RNIFA8B2_1_LC_3_23_1 { switch_clk_1MHz_inst.current_state_RNIFA8B2[1] }
+ble_pack switch_clk_1MHz_inst.current_state_RNITOE91_1_LC_3_23_2 { switch_clk_1MHz_inst.current_state_RNITOE91[1] }
+clb_pack LT_3_23 { switch_clk_1MHz_inst.counter_stat_RNIIHP11_6_LC_3_23_0, switch_clk_1MHz_inst.current_state_RNIFA8B2_1_LC_3_23_1, switch_clk_1MHz_inst.current_state_RNITOE91_1_LC_3_23_2 }
+set_location LT_3_23 3 23
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_72_LC_4_17_0 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[72], switch_clk_2MHz_inst.bit_sequence_stat[72] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_82_LC_4_17_1 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[82], switch_clk_2MHz_inst.bit_sequence_stat[82] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_70_LC_4_17_2 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[70], switch_clk_2MHz_inst.bit_sequence_stat[70] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_71_LC_4_17_3 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[71], switch_clk_2MHz_inst.bit_sequence_stat[71] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_23_LC_4_17_4 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[23], switch_clk_2MHz_inst.bit_sequence_stat[23] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_62_LC_4_17_5 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[62], switch_clk_2MHz_inst.bit_sequence_stat[62] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_63_LC_4_17_6 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[63], switch_clk_2MHz_inst.bit_sequence_stat[63] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_59_LC_4_17_7 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[59], switch_clk_2MHz_inst.bit_sequence_stat[59] }
+clb_pack LT_4_17 { switch_clk_2MHz_inst.bit_sequence_stat_72_LC_4_17_0, switch_clk_2MHz_inst.bit_sequence_stat_82_LC_4_17_1, switch_clk_2MHz_inst.bit_sequence_stat_70_LC_4_17_2, switch_clk_2MHz_inst.bit_sequence_stat_71_LC_4_17_3, switch_clk_2MHz_inst.bit_sequence_stat_23_LC_4_17_4, switch_clk_2MHz_inst.bit_sequence_stat_62_LC_4_17_5, switch_clk_2MHz_inst.bit_sequence_stat_63_LC_4_17_6, switch_clk_2MHz_inst.bit_sequence_stat_59_LC_4_17_7 }
+set_location LT_4_17 4 17
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_24_LC_4_18_0 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[24], switch_clk_2MHz_inst.bit_sequence_stat[24] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_5_LC_4_18_1 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[5], switch_clk_2MHz_inst.bit_sequence_stat[5] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_4_LC_4_18_2 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[4], switch_clk_2MHz_inst.bit_sequence_stat[4] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_49_LC_4_18_3 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[49], switch_clk_2MHz_inst.bit_sequence_stat[49] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_46_LC_4_18_4 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[46], switch_clk_2MHz_inst.bit_sequence_stat[46] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_7_LC_4_18_5 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[7], switch_clk_2MHz_inst.bit_sequence_stat[7] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_25_LC_4_18_6 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[25], switch_clk_2MHz_inst.bit_sequence_stat[25] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_3_LC_4_18_7 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[3], switch_clk_2MHz_inst.bit_sequence_stat[3] }
+clb_pack LT_4_18 { switch_clk_2MHz_inst.bit_sequence_stat_24_LC_4_18_0, switch_clk_2MHz_inst.bit_sequence_stat_5_LC_4_18_1, switch_clk_2MHz_inst.bit_sequence_stat_4_LC_4_18_2, switch_clk_2MHz_inst.bit_sequence_stat_49_LC_4_18_3, switch_clk_2MHz_inst.bit_sequence_stat_46_LC_4_18_4, switch_clk_2MHz_inst.bit_sequence_stat_7_LC_4_18_5, switch_clk_2MHz_inst.bit_sequence_stat_25_LC_4_18_6, switch_clk_2MHz_inst.bit_sequence_stat_3_LC_4_18_7 }
+set_location LT_4_18 4 18
+ble_pack switch_clk_2MHz_inst.current_state_RNO_0_0_LC_4_19_0 { switch_clk_2MHz_inst.current_state_RNO_0[0] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_0_LC_4_19_1 { switch_clk_2MHz_inst.current_state_fast_1_rep1_RNIEUV6_0_switch_clk_2MHz_inst.bit_sequence_stat_0_REP_LUT4_0, switch_clk_2MHz_inst.bit_sequence_stat[0] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_1_LC_4_19_2 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[1], switch_clk_2MHz_inst.bit_sequence_stat[1] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_2_LC_4_19_3 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[2], switch_clk_2MHz_inst.bit_sequence_stat[2] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_6_LC_4_19_7 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[6], switch_clk_2MHz_inst.bit_sequence_stat[6] }
+clb_pack LT_4_19 { switch_clk_2MHz_inst.current_state_RNO_0_0_LC_4_19_0, switch_clk_2MHz_inst.bit_sequence_stat_0_LC_4_19_1, switch_clk_2MHz_inst.bit_sequence_stat_1_LC_4_19_2, switch_clk_2MHz_inst.bit_sequence_stat_2_LC_4_19_3, switch_clk_2MHz_inst.bit_sequence_stat_6_LC_4_19_7 }
+set_location LT_4_19 4 19
+ble_pack switch_clk_2MHz_inst.counter_stat_0_LC_4_20_0 { switch_clk_2MHz_inst.counter_stat_RNO[0], switch_clk_2MHz_inst.counter_stat[0], switch_clk_2MHz_inst.counter_stat_cry_c[0] }
+ble_pack switch_clk_2MHz_inst.counter_stat_1_LC_4_20_1 { switch_clk_2MHz_inst.counter_stat_RNO[1], switch_clk_2MHz_inst.counter_stat[1], switch_clk_2MHz_inst.counter_stat_cry_c[1] }
+ble_pack switch_clk_2MHz_inst.counter_stat_2_LC_4_20_2 { switch_clk_2MHz_inst.counter_stat_RNO[2], switch_clk_2MHz_inst.counter_stat[2], switch_clk_2MHz_inst.counter_stat_cry_c[2] }
+ble_pack switch_clk_2MHz_inst.counter_stat_3_LC_4_20_3 { switch_clk_2MHz_inst.counter_stat_RNO[3], switch_clk_2MHz_inst.counter_stat[3], switch_clk_2MHz_inst.counter_stat_cry_c[3] }
+ble_pack switch_clk_2MHz_inst.counter_stat_4_LC_4_20_4 { switch_clk_2MHz_inst.counter_stat_RNO[4], switch_clk_2MHz_inst.counter_stat[4], switch_clk_2MHz_inst.counter_stat_cry_c[4] }
+ble_pack switch_clk_2MHz_inst.counter_stat_5_LC_4_20_5 { switch_clk_2MHz_inst.counter_stat_RNO[5], switch_clk_2MHz_inst.counter_stat[5], switch_clk_2MHz_inst.counter_stat_cry_c[5] }
+ble_pack switch_clk_2MHz_inst.counter_stat_6_LC_4_20_6 { switch_clk_2MHz_inst.counter_stat_RNO[6], switch_clk_2MHz_inst.counter_stat[6] }
+clb_pack LT_4_20 { switch_clk_2MHz_inst.counter_stat_0_LC_4_20_0, switch_clk_2MHz_inst.counter_stat_1_LC_4_20_1, switch_clk_2MHz_inst.counter_stat_2_LC_4_20_2, switch_clk_2MHz_inst.counter_stat_3_LC_4_20_3, switch_clk_2MHz_inst.counter_stat_4_LC_4_20_4, switch_clk_2MHz_inst.counter_stat_5_LC_4_20_5, switch_clk_2MHz_inst.counter_stat_6_LC_4_20_6 }
+set_location LT_4_20 4 20
+ble_pack switch_clk_2MHz_inst.current_state_RNO_6_0_LC_4_21_0 { switch_clk_2MHz_inst.current_state_RNO_6[0] }
+ble_pack switch_clk_2MHz_inst.current_state_RNO_7_0_LC_4_21_2 { switch_clk_2MHz_inst.current_state_RNO_7[0] }
+ble_pack switch_clk_2MHz_inst.current_state_RNO_3_0_LC_4_21_3 { switch_clk_2MHz_inst.current_state_RNO_3[0] }
+ble_pack switch_clk_1MHz_inst.current_state_RNO_6_0_LC_4_21_4 { switch_clk_1MHz_inst.current_state_RNO_6[0] }
+ble_pack switch_clk_1MHz_inst.current_state_RNO_1_0_LC_4_21_5 { switch_clk_1MHz_inst.current_state_RNO_1[0] }
+ble_pack switch_clk_2MHz_inst.current_state_fast_1_rep1_RNIEUV6_LC_4_21_6 { switch_clk_2MHz_inst.current_state_fast_1_rep1_RNIEUV6 }
+clb_pack LT_4_21 { switch_clk_2MHz_inst.current_state_RNO_6_0_LC_4_21_0, switch_clk_2MHz_inst.current_state_RNO_7_0_LC_4_21_2, switch_clk_2MHz_inst.current_state_RNO_3_0_LC_4_21_3, switch_clk_1MHz_inst.current_state_RNO_6_0_LC_4_21_4, switch_clk_1MHz_inst.current_state_RNO_1_0_LC_4_21_5, switch_clk_2MHz_inst.current_state_fast_1_rep1_RNIEUV6_LC_4_21_6 }
+set_location LT_4_21 4 21
+ble_pack switch_clk_1MHz_inst.counter_stat_0_LC_4_22_0 { switch_clk_1MHz_inst.counter_stat_RNO[0], switch_clk_1MHz_inst.counter_stat[0], switch_clk_1MHz_inst.counter_stat_cry_c[0] }
+ble_pack switch_clk_1MHz_inst.counter_stat_1_LC_4_22_1 { switch_clk_1MHz_inst.counter_stat_RNO[1], switch_clk_1MHz_inst.counter_stat[1], switch_clk_1MHz_inst.counter_stat_cry_c[1] }
+ble_pack switch_clk_1MHz_inst.counter_stat_2_LC_4_22_2 { switch_clk_1MHz_inst.counter_stat_RNO[2], switch_clk_1MHz_inst.counter_stat[2], switch_clk_1MHz_inst.counter_stat_cry_c[2] }
+ble_pack switch_clk_1MHz_inst.counter_stat_3_LC_4_22_3 { switch_clk_1MHz_inst.counter_stat_RNO[3], switch_clk_1MHz_inst.counter_stat[3], switch_clk_1MHz_inst.counter_stat_cry_c[3] }
+ble_pack switch_clk_1MHz_inst.counter_stat_4_LC_4_22_4 { switch_clk_1MHz_inst.counter_stat_RNO[4], switch_clk_1MHz_inst.counter_stat[4], switch_clk_1MHz_inst.counter_stat_cry_c[4] }
+ble_pack switch_clk_1MHz_inst.counter_stat_5_LC_4_22_5 { switch_clk_1MHz_inst.counter_stat_RNO[5], switch_clk_1MHz_inst.counter_stat[5], switch_clk_1MHz_inst.counter_stat_cry_c[5] }
+ble_pack switch_clk_1MHz_inst.counter_stat_6_LC_4_22_6 { switch_clk_1MHz_inst.counter_stat_RNO[6], switch_clk_1MHz_inst.counter_stat[6] }
+clb_pack LT_4_22 { switch_clk_1MHz_inst.counter_stat_0_LC_4_22_0, switch_clk_1MHz_inst.counter_stat_1_LC_4_22_1, switch_clk_1MHz_inst.counter_stat_2_LC_4_22_2, switch_clk_1MHz_inst.counter_stat_3_LC_4_22_3, switch_clk_1MHz_inst.counter_stat_4_LC_4_22_4, switch_clk_1MHz_inst.counter_stat_5_LC_4_22_5, switch_clk_1MHz_inst.counter_stat_6_LC_4_22_6 }
+set_location LT_4_22 4 22
+ble_pack switch_clk_1MHz_inst.counter_idle_0_LC_4_23_0 { switch_clk_1MHz_inst.counter_idle_RNO[0], switch_clk_1MHz_inst.counter_idle[0], switch_clk_1MHz_inst.counter_idle_cry_c[0] }
+ble_pack switch_clk_1MHz_inst.counter_idle_1_LC_4_23_1 { switch_clk_1MHz_inst.counter_idle_RNO[1], switch_clk_1MHz_inst.counter_idle[1], switch_clk_1MHz_inst.counter_idle_cry_c[1] }
+ble_pack switch_clk_1MHz_inst.counter_idle_2_LC_4_23_2 { switch_clk_1MHz_inst.counter_idle_RNO[2], switch_clk_1MHz_inst.counter_idle[2], switch_clk_1MHz_inst.counter_idle_cry_c[2] }
+ble_pack switch_clk_1MHz_inst.counter_idle_3_LC_4_23_3 { switch_clk_1MHz_inst.counter_idle_RNO[3], switch_clk_1MHz_inst.counter_idle[3], switch_clk_1MHz_inst.counter_idle_cry_c[3] }
+ble_pack switch_clk_1MHz_inst.counter_idle_4_LC_4_23_4 { switch_clk_1MHz_inst.counter_idle_RNO[4], switch_clk_1MHz_inst.counter_idle[4], switch_clk_1MHz_inst.counter_idle_cry_c[4] }
+ble_pack switch_clk_1MHz_inst.counter_idle_5_LC_4_23_5 { switch_clk_1MHz_inst.counter_idle_RNO[5], switch_clk_1MHz_inst.counter_idle[5], switch_clk_1MHz_inst.counter_idle_cry_c[5] }
+ble_pack switch_clk_1MHz_inst.counter_idle_6_LC_4_23_6 { switch_clk_1MHz_inst.counter_idle_RNO[6], switch_clk_1MHz_inst.counter_idle[6], switch_clk_1MHz_inst.counter_idle_cry_c[6] }
+ble_pack switch_clk_1MHz_inst.counter_idle_7_LC_4_23_7 { switch_clk_1MHz_inst.counter_idle_RNO[7], switch_clk_1MHz_inst.counter_idle[7] }
+clb_pack LT_4_23 { switch_clk_1MHz_inst.counter_idle_0_LC_4_23_0, switch_clk_1MHz_inst.counter_idle_1_LC_4_23_1, switch_clk_1MHz_inst.counter_idle_2_LC_4_23_2, switch_clk_1MHz_inst.counter_idle_3_LC_4_23_3, switch_clk_1MHz_inst.counter_idle_4_LC_4_23_4, switch_clk_1MHz_inst.counter_idle_5_LC_4_23_5, switch_clk_1MHz_inst.counter_idle_6_LC_4_23_6, switch_clk_1MHz_inst.counter_idle_7_LC_4_23_7 }
+set_location LT_4_23 4 23
+ble_pack switch_clk_1MHz_inst.current_state_RNI1TCQ_2_1_LC_4_24_0 { switch_clk_1MHz_inst.current_state_RNI1TCQ_2[1] }
+ble_pack switch_clk_1MHz_inst.counter_idle_RNIQP3H_3_LC_4_24_1 { switch_clk_1MHz_inst.counter_idle_RNIQP3H[3] }
+ble_pack switch_clk_1MHz_inst.counter_idle_RNIOJRU1_7_LC_4_24_2 { switch_clk_1MHz_inst.counter_idle_RNIOJRU1[7] }
+ble_pack switch_clk_1MHz_inst.current_state_RNO_5_0_LC_4_24_3 { switch_clk_1MHz_inst.current_state_RNO_5[0] }
+ble_pack switch_clk_1MHz_inst.current_state_RNO_4_0_LC_4_24_4 { switch_clk_1MHz_inst.current_state_RNO_4[0] }
+ble_pack switch_clk_1MHz_inst.current_state_RNO_0_0_LC_4_24_5 { switch_clk_1MHz_inst.current_state_RNO_0[0] }
+ble_pack switch_clk_1MHz_inst.current_state_0_LC_4_24_6 { switch_clk_1MHz_inst.current_state_RNO[0], switch_clk_1MHz_inst.current_state[0] }
+ble_pack switch_clk_1MHz_inst.current_state_RNI1TCQ_1_1_LC_4_24_7 { switch_clk_1MHz_inst.current_state_RNI1TCQ_1[1] }
+clb_pack LT_4_24 { switch_clk_1MHz_inst.current_state_RNI1TCQ_2_1_LC_4_24_0, switch_clk_1MHz_inst.counter_idle_RNIQP3H_3_LC_4_24_1, switch_clk_1MHz_inst.counter_idle_RNIOJRU1_7_LC_4_24_2, switch_clk_1MHz_inst.current_state_RNO_5_0_LC_4_24_3, switch_clk_1MHz_inst.current_state_RNO_4_0_LC_4_24_4, switch_clk_1MHz_inst.current_state_RNO_0_0_LC_4_24_5, switch_clk_1MHz_inst.current_state_0_LC_4_24_6, switch_clk_1MHz_inst.current_state_RNI1TCQ_1_1_LC_4_24_7 }
+set_location LT_4_24 4 24
+ble_pack switch_clk_1MHz_inst.counter_din_RNIFO9H_1_LC_4_25_4 { switch_clk_1MHz_inst.counter_din_RNIFO9H[1] }
+clb_pack LT_4_25 { switch_clk_1MHz_inst.counter_din_RNIFO9H_1_LC_4_25_4 }
+set_location LT_4_25 4 25
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_58_LC_4_26_2 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[58], switch_clk_1MHz_inst.bit_sequence_stat[58] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_59_LC_4_26_3 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[59], switch_clk_1MHz_inst.bit_sequence_stat[59] }
+clb_pack LT_4_26 { switch_clk_1MHz_inst.bit_sequence_stat_58_LC_4_26_2, switch_clk_1MHz_inst.bit_sequence_stat_59_LC_4_26_3 }
+set_location LT_4_26 4 26
+ble_pack config_register_latched_dec_inst.DYNCNF_1_RNIP1121_0_0_LC_5_5_5 { config_register_latched_dec_inst.DYNCNF_1_RNIP1121_0[0] }
+clb_pack LT_5_5 { config_register_latched_dec_inst.DYNCNF_1_RNIP1121_0_0_LC_5_5_5 }
+set_location LT_5_5 5 5
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_83_LC_5_17_3 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[83], switch_clk_2MHz_inst.bit_sequence_stat[83] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_61_LC_5_17_4 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[61], switch_clk_2MHz_inst.bit_sequence_stat[61] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_47_LC_5_17_5 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[47], switch_clk_2MHz_inst.bit_sequence_stat[47] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_60_LC_5_17_6 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[60], switch_clk_2MHz_inst.bit_sequence_stat[60] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_48_LC_5_17_7 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[48], switch_clk_2MHz_inst.bit_sequence_stat[48] }
+clb_pack LT_5_17 { switch_clk_2MHz_inst.bit_sequence_stat_83_LC_5_17_3, switch_clk_2MHz_inst.bit_sequence_stat_61_LC_5_17_4, switch_clk_2MHz_inst.bit_sequence_stat_47_LC_5_17_5, switch_clk_2MHz_inst.bit_sequence_stat_60_LC_5_17_6, switch_clk_2MHz_inst.bit_sequence_stat_48_LC_5_17_7 }
+set_location LT_5_17 5 17
+ble_pack switch_clk_2MHz_inst.flag_input_reg_LC_5_18_2 { switch_clk_2MHz_inst.flag_input_reg_THRU_LUT4_0, switch_clk_2MHz_inst.flag_input_reg }
+ble_pack switch_clk_2MHz_inst.current_state_fast_1_rep1_LC_5_18_3 { switch_clk_2MHz_inst.current_state_fast_1_rep1_RNO, switch_clk_2MHz_inst.current_state_fast_1_rep1 }
+clb_pack LT_5_18 { switch_clk_2MHz_inst.flag_input_reg_LC_5_18_2, switch_clk_2MHz_inst.current_state_fast_1_rep1_LC_5_18_3 }
+set_location LT_5_18 5 18
+ble_pack switch_clk_2MHz_inst.current_state_1_LC_5_19_0 { switch_clk_2MHz_inst.current_state_RNO[1], switch_clk_2MHz_inst.current_state[1] }
+ble_pack switch_clk_2MHz_inst.counter_din_RNI6HAE1_3_LC_5_19_2 { switch_clk_2MHz_inst.counter_din_RNI6HAE1[3] }
+ble_pack switch_clk_2MHz_inst.current_state_1_rep1_LC_5_19_3 { switch_clk_2MHz_inst.current_state_1_rep1_RNO, switch_clk_2MHz_inst.current_state_1_rep1 }
+ble_pack switch_clk_2MHz_inst.current_state_fast_1_LC_5_19_4 { switch_clk_2MHz_inst.current_state_fast_RNO[1], switch_clk_2MHz_inst.current_state_fast[1] }
+ble_pack switch_clk_2MHz_inst.current_state_1_rep2_LC_5_19_5 { switch_clk_2MHz_inst.current_state_1_rep2_RNO, switch_clk_2MHz_inst.current_state_1_rep2 }
+ble_pack switch_clk_2MHz_inst.current_state_fast_1_rep1_RNIEUV6_0_LC_5_19_7 { switch_clk_2MHz_inst.current_state_fast_1_rep1_RNIEUV6_0 }
+clb_pack LT_5_19 { switch_clk_2MHz_inst.current_state_1_LC_5_19_0, switch_clk_2MHz_inst.counter_din_RNI6HAE1_3_LC_5_19_2, switch_clk_2MHz_inst.current_state_1_rep1_LC_5_19_3, switch_clk_2MHz_inst.current_state_fast_1_LC_5_19_4, switch_clk_2MHz_inst.current_state_1_rep2_LC_5_19_5, switch_clk_2MHz_inst.current_state_fast_1_rep1_RNIEUV6_0_LC_5_19_7 }
+set_location LT_5_19 5 19
+ble_pack switch_clk_2MHz_inst.counter_stat_RNIMHC41_6_LC_5_20_0 { switch_clk_2MHz_inst.counter_stat_RNIMHC41[6] }
+ble_pack switch_clk_2MHz_inst.current_state_fast_RNI9DAU1_1_LC_5_20_1 { switch_clk_2MHz_inst.current_state_fast_RNI9DAU1[1] }
+ble_pack switch_clk_2MHz_inst.current_state_RNO_4_0_LC_5_20_2 { switch_clk_2MHz_inst.current_state_RNO_4[0] }
+ble_pack switch_clk_2MHz_inst.current_state_RNO_1_0_LC_5_20_3 { switch_clk_2MHz_inst.current_state_RNO_1[0] }
+ble_pack switch_clk_2MHz_inst.current_state_0_LC_5_20_4 { switch_clk_2MHz_inst.current_state_RNO[0], switch_clk_2MHz_inst.current_state[0] }
+clb_pack LT_5_20 { switch_clk_2MHz_inst.counter_stat_RNIMHC41_6_LC_5_20_0, switch_clk_2MHz_inst.current_state_fast_RNI9DAU1_1_LC_5_20_1, switch_clk_2MHz_inst.current_state_RNO_4_0_LC_5_20_2, switch_clk_2MHz_inst.current_state_RNO_1_0_LC_5_20_3, switch_clk_2MHz_inst.current_state_0_LC_5_20_4 }
+set_location LT_5_20 5 20
+ble_pack switch_clk_1MHz_inst.current_state_RNO_3_0_LC_5_21_0 { switch_clk_1MHz_inst.current_state_RNO_3[0] }
+ble_pack switch_clk_1MHz_inst.current_state_RNO_7_0_LC_5_21_1 { switch_clk_1MHz_inst.current_state_RNO_7[0] }
+ble_pack switch_clk_2MHz_inst.MOSI_er_LC_5_21_4 { switch_clk_2MHz_inst.MOSI_er_RNO, switch_clk_2MHz_inst.MOSI_er }
+ble_pack switch_clk_2MHz_inst.current_state_RNO_2_0_LC_5_21_5 { switch_clk_2MHz_inst.current_state_RNO_2[0] }
+clb_pack LT_5_21 { switch_clk_1MHz_inst.current_state_RNO_3_0_LC_5_21_0, switch_clk_1MHz_inst.current_state_RNO_7_0_LC_5_21_1, switch_clk_2MHz_inst.MOSI_er_LC_5_21_4, switch_clk_2MHz_inst.current_state_RNO_2_0_LC_5_21_5 }
+set_location LT_5_21 5 21
+ble_pack config_register_latched_dec_inst.STATCNF_1_RNO_0_0_LC_5_22_1 { config_register_latched_dec_inst.STATCNF_1_RNO_0[0] }
+ble_pack switch_clk_1MHz_inst.SEL_0_er_LC_5_22_2 { switch_clk_1MHz_inst.SEL_0_er_THRU_LUT4_0, switch_clk_1MHz_inst.SEL_0_er }
+ble_pack switch_clk_1MHz_inst.counter_din_RNO_0_3_LC_5_22_3 { switch_clk_1MHz_inst.counter_din_RNO_0[3] }
+ble_pack switch_clk_1MHz_inst.current_state_RNI1TCQ_0_1_LC_5_22_4 { switch_clk_1MHz_inst.current_state_RNI1TCQ_0[1] }
+ble_pack switch_clk_1MHz_inst.current_state_RNI1TCQ_1_LC_5_22_5 { switch_clk_1MHz_inst.current_state_RNI1TCQ[1] }
+clb_pack LT_5_22 { config_register_latched_dec_inst.STATCNF_1_RNO_0_0_LC_5_22_1, switch_clk_1MHz_inst.SEL_0_er_LC_5_22_2, switch_clk_1MHz_inst.counter_din_RNO_0_3_LC_5_22_3, switch_clk_1MHz_inst.current_state_RNI1TCQ_0_1_LC_5_22_4, switch_clk_1MHz_inst.current_state_RNI1TCQ_1_LC_5_22_5 }
+set_location LT_5_22 5 22
+ble_pack config_register_latched_dec_inst.DYNCNF_1_RNIP1121_0_LC_5_23_0 { config_register_latched_dec_inst.DYNCNF_1_RNIP1121[0] }
+ble_pack config_register_latched_dec_inst.DYNCNF_1_0_LC_5_23_1 { config_register_latched_dec_inst.DYNCNF_1_RNIP1121_0_config_register_latched_dec_inst.DYNCNF_1_0_REP_LUT4_0, config_register_latched_dec_inst.DYNCNF_1[0] }
+ble_pack divisor_inst_2.counter_RNISR1F_2_LC_5_23_6 { divisor_inst_2.counter_RNISR1F[2] }
+ble_pack switch_clk_1MHz_inst.current_state_RNITOE91_0_1_LC_5_23_7 { switch_clk_1MHz_inst.current_state_RNITOE91_0[1] }
+clb_pack LT_5_23 { config_register_latched_dec_inst.DYNCNF_1_RNIP1121_0_LC_5_23_0, config_register_latched_dec_inst.DYNCNF_1_0_LC_5_23_1, divisor_inst_2.counter_RNISR1F_2_LC_5_23_6, switch_clk_1MHz_inst.current_state_RNITOE91_0_1_LC_5_23_7 }
+set_location LT_5_23 5 23
+ble_pack switch_clk_1MHz_inst.current_state_RNO_0_1_LC_5_24_0 { switch_clk_1MHz_inst.current_state_RNO_0[1] }
+ble_pack switch_clk_1MHz_inst.current_state_1_LC_5_24_1 { switch_clk_1MHz_inst.current_state_RNO[1], switch_clk_1MHz_inst.current_state[1] }
+ble_pack switch_clk_1MHz_inst.counter_din_1_LC_5_24_2 { switch_clk_1MHz_inst.counter_din_RNO[1], switch_clk_1MHz_inst.counter_din[1] }
+ble_pack switch_clk_1MHz_inst.counter_din_0_LC_5_24_3 { switch_clk_1MHz_inst.counter_din_RNO[0], switch_clk_1MHz_inst.counter_din[0] }
+ble_pack switch_clk_1MHz_inst.current_state_RNO_8_0_LC_5_24_4 { switch_clk_1MHz_inst.current_state_RNO_8[0] }
+ble_pack switch_clk_1MHz_inst.current_state_RNO_2_0_LC_5_24_5 { switch_clk_1MHz_inst.current_state_RNO_2[0] }
+ble_pack switch_clk_1MHz_inst.counter_din_2_LC_5_24_7 { switch_clk_1MHz_inst.counter_din_RNO[2], switch_clk_1MHz_inst.counter_din[2] }
+clb_pack LT_5_24 { switch_clk_1MHz_inst.current_state_RNO_0_1_LC_5_24_0, switch_clk_1MHz_inst.current_state_1_LC_5_24_1, switch_clk_1MHz_inst.counter_din_1_LC_5_24_2, switch_clk_1MHz_inst.counter_din_0_LC_5_24_3, switch_clk_1MHz_inst.current_state_RNO_8_0_LC_5_24_4, switch_clk_1MHz_inst.current_state_RNO_2_0_LC_5_24_5, switch_clk_1MHz_inst.counter_din_2_LC_5_24_7 }
+set_location LT_5_24 5 24
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_25_LC_5_25_0 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[25], switch_clk_1MHz_inst.bit_sequence_stat[25] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_28_LC_5_25_1 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[28], switch_clk_1MHz_inst.bit_sequence_stat[28] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_24_LC_5_25_2 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[24], switch_clk_1MHz_inst.bit_sequence_stat[24] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_29_LC_5_25_3 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[29], switch_clk_1MHz_inst.bit_sequence_stat[29] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_57_LC_5_25_4 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[57], switch_clk_1MHz_inst.bit_sequence_stat[57] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_23_LC_5_25_5 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[23], switch_clk_1MHz_inst.bit_sequence_stat[23] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_27_LC_5_25_6 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[27], switch_clk_1MHz_inst.bit_sequence_stat[27] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_26_LC_5_25_7 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[26], switch_clk_1MHz_inst.bit_sequence_stat[26] }
+clb_pack LT_5_25 { switch_clk_1MHz_inst.bit_sequence_stat_25_LC_5_25_0, switch_clk_1MHz_inst.bit_sequence_stat_28_LC_5_25_1, switch_clk_1MHz_inst.bit_sequence_stat_24_LC_5_25_2, switch_clk_1MHz_inst.bit_sequence_stat_29_LC_5_25_3, switch_clk_1MHz_inst.bit_sequence_stat_57_LC_5_25_4, switch_clk_1MHz_inst.bit_sequence_stat_23_LC_5_25_5, switch_clk_1MHz_inst.bit_sequence_stat_27_LC_5_25_6, switch_clk_1MHz_inst.bit_sequence_stat_26_LC_5_25_7 }
+set_location LT_5_25 5 25
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_60_LC_5_26_2 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[60], switch_clk_1MHz_inst.bit_sequence_stat[60] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_61_LC_5_26_5 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[61], switch_clk_1MHz_inst.bit_sequence_stat[61] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_62_LC_5_26_7 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[62], switch_clk_1MHz_inst.bit_sequence_stat[62] }
+clb_pack LT_5_26 { switch_clk_1MHz_inst.bit_sequence_stat_60_LC_5_26_2, switch_clk_1MHz_inst.bit_sequence_stat_61_LC_5_26_5, switch_clk_1MHz_inst.bit_sequence_stat_62_LC_5_26_7 }
+set_location LT_5_26 5 26
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_30_LC_5_27_2 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[30], switch_clk_1MHz_inst.bit_sequence_stat[30] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_31_LC_5_27_6 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[31], switch_clk_1MHz_inst.bit_sequence_stat[31] }
+clb_pack LT_5_27 { switch_clk_1MHz_inst.bit_sequence_stat_30_LC_5_27_2, switch_clk_1MHz_inst.bit_sequence_stat_31_LC_5_27_6 }
+set_location LT_5_27 5 27
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_85_LC_6_18_4 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[85], switch_clk_2MHz_inst.bit_sequence_stat[85] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_84_LC_6_18_6 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[84], switch_clk_2MHz_inst.bit_sequence_stat[84] }
+clb_pack LT_6_18 { switch_clk_2MHz_inst.bit_sequence_stat_85_LC_6_18_4, switch_clk_2MHz_inst.bit_sequence_stat_84_LC_6_18_6 }
+set_location LT_6_18 6 18
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_41_LC_6_19_2 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[41], switch_clk_2MHz_inst.bit_sequence_stat[41] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_87_LC_6_19_5 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[87], switch_clk_2MHz_inst.bit_sequence_stat[87] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_40_LC_6_19_6 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[40], switch_clk_2MHz_inst.bit_sequence_stat[40] }
+ble_pack switch_clk_2MHz_inst.bit_sequence_stat_86_LC_6_19_7 { switch_clk_2MHz_inst.bit_sequence_stat_RNO[86], switch_clk_2MHz_inst.bit_sequence_stat[86] }
+clb_pack LT_6_19 { switch_clk_2MHz_inst.bit_sequence_stat_41_LC_6_19_2, switch_clk_2MHz_inst.bit_sequence_stat_87_LC_6_19_5, switch_clk_2MHz_inst.bit_sequence_stat_40_LC_6_19_6, switch_clk_2MHz_inst.bit_sequence_stat_86_LC_6_19_7 }
+set_location LT_6_19 6 19
+ble_pack switch_clk_2MHz_inst.counter_din_RNO_0_2_LC_6_20_0 { switch_clk_2MHz_inst.counter_din_RNO_0[2] }
+ble_pack switch_clk_2MHz_inst.counter_din_2_LC_6_20_1 { switch_clk_2MHz_inst.counter_din_RNO[2], switch_clk_2MHz_inst.counter_din[2] }
+ble_pack switch_clk_2MHz_inst.counter_din_0_LC_6_20_2 { switch_clk_2MHz_inst.counter_din_RNO[0], switch_clk_2MHz_inst.counter_din[0] }
+ble_pack divisor_inst.clk_out_RNI3LEM_LC_6_20_3 { divisor_inst.clk_out_RNI3LEM }
+ble_pack switch_clk_2MHz_inst.counter_din_1_LC_6_20_4 { switch_clk_2MHz_inst.counter_din_RNO[1], switch_clk_2MHz_inst.counter_din[1] }
+ble_pack switch_clk_2MHz_inst.current_state_RNO_5_0_LC_6_20_5 { switch_clk_2MHz_inst.current_state_RNO_5[0] }
+ble_pack switch_clk_2MHz_inst.counter_din_RNIBRN21_1_LC_6_20_6 { switch_clk_2MHz_inst.counter_din_RNIBRN21[1] }
+ble_pack switch_clk_2MHz_inst.counter_din_3_LC_6_20_7 { switch_clk_2MHz_inst.counter_din_RNO[3], switch_clk_2MHz_inst.counter_din[3] }
+clb_pack LT_6_20 { switch_clk_2MHz_inst.counter_din_RNO_0_2_LC_6_20_0, switch_clk_2MHz_inst.counter_din_2_LC_6_20_1, switch_clk_2MHz_inst.counter_din_0_LC_6_20_2, divisor_inst.clk_out_RNI3LEM_LC_6_20_3, switch_clk_2MHz_inst.counter_din_1_LC_6_20_4, switch_clk_2MHz_inst.current_state_RNO_5_0_LC_6_20_5, switch_clk_2MHz_inst.counter_din_RNIBRN21_1_LC_6_20_6, switch_clk_2MHz_inst.counter_din_3_LC_6_20_7 }
+set_location LT_6_20 6 20
+ble_pack switch_clk_2MHz_inst.SEL_0_RNIC97Q_LC_6_21_0 { switch_clk_2MHz_inst.SEL_0_RNIC97Q }
+ble_pack switch_clk_2MHz_inst.SEL_0_LC_6_21_1 { switch_clk_2MHz_inst.SEL_0_RNILHTT1_switch_clk_2MHz_inst.SEL_0_REP_LUT4_0, switch_clk_2MHz_inst.SEL_0 }
+ble_pack switch_clk_2MHz_inst.SEL_0_RNIC97Q_0_LC_6_21_2 { switch_clk_2MHz_inst.SEL_0_RNIC97Q_0 }
+ble_pack switch_clk_2MHz_inst.SEL_0_RNILHTT1_LC_6_21_3 { switch_clk_2MHz_inst.SEL_0_RNILHTT1 }
+ble_pack divisor_inst.clk_out_LC_6_21_4 { divisor_inst.clk_out_RNO, divisor_inst.clk_out }
+ble_pack switch_clk_2MHz_inst.current_state_fast_fast_RNITUE9_1_LC_6_21_5 { switch_clk_2MHz_inst.current_state_fast_fast_RNITUE9[1] }
+ble_pack switch_clk_2MHz_inst.current_state_fast_fast_RNI0KTV_1_LC_6_21_6 { switch_clk_2MHz_inst.current_state_fast_fast_RNI0KTV[1] }
+ble_pack switch_clk_2MHz_inst.current_state_fast_fast_1_LC_6_21_7 { switch_clk_2MHz_inst.current_state_fast_fast_RNO[1], switch_clk_2MHz_inst.current_state_fast_fast[1] }
+clb_pack LT_6_21 { switch_clk_2MHz_inst.SEL_0_RNIC97Q_LC_6_21_0, switch_clk_2MHz_inst.SEL_0_LC_6_21_1, switch_clk_2MHz_inst.SEL_0_RNIC97Q_0_LC_6_21_2, switch_clk_2MHz_inst.SEL_0_RNILHTT1_LC_6_21_3, divisor_inst.clk_out_LC_6_21_4, switch_clk_2MHz_inst.current_state_fast_fast_RNITUE9_1_LC_6_21_5, switch_clk_2MHz_inst.current_state_fast_fast_RNI0KTV_1_LC_6_21_6, switch_clk_2MHz_inst.current_state_fast_fast_1_LC_6_21_7 }
+set_location LT_6_21 6 21
+ble_pack mosi_output_obuf_RNO_LC_6_22_1 { mosi_output_obuf_RNO }
+ble_pack switch_clk_2MHz_inst.SEL_0_RNI98M31_LC_6_22_2 { switch_clk_2MHz_inst.SEL_0_RNI98M31 }
+ble_pack switch_clk_2MHz_inst.SEL_0_RNI4VEB3_LC_6_22_3 { switch_clk_2MHz_inst.SEL_0_RNI4VEB3 }
+ble_pack switch_clk_1MHz_inst.SEL_0_er_RNIQKO61_LC_6_22_4 { switch_clk_1MHz_inst.SEL_0_er_RNIQKO61 }
+ble_pack switch_clk_2MHz_inst.flag_output_1_RNI12011_LC_6_22_5 { switch_clk_2MHz_inst.flag_output_1_RNI12011 }
+ble_pack switch_clk_1MHz_inst.delay_inst.delay_reg_RNI7S8U1_15_LC_6_22_6 { switch_clk_1MHz_inst.delay_inst.delay_reg_RNI7S8U1[15] }
+ble_pack config_register_latched_dec_inst.STATCNF_1_RNO_0_LC_6_22_7 { config_register_latched_dec_inst.STATCNF_1_RNO[0] }
+clb_pack LT_6_22 { mosi_output_obuf_RNO_LC_6_22_1, switch_clk_2MHz_inst.SEL_0_RNI98M31_LC_6_22_2, switch_clk_2MHz_inst.SEL_0_RNI4VEB3_LC_6_22_3, switch_clk_1MHz_inst.SEL_0_er_RNIQKO61_LC_6_22_4, switch_clk_2MHz_inst.flag_output_1_RNI12011_LC_6_22_5, switch_clk_1MHz_inst.delay_inst.delay_reg_RNI7S8U1_15_LC_6_22_6, config_register_latched_dec_inst.STATCNF_1_RNO_0_LC_6_22_7 }
+set_location LT_6_22 6 22
+ble_pack switch_clk_1MHz_inst.delay_inst.delay_reg_2_LC_6_23_0 { switch_clk_1MHz_inst.delay_inst.delay_reg_2_THRU_LUT4_0, switch_clk_1MHz_inst.delay_inst.delay_reg[2] }
+ble_pack divisor_inst_2.counter_2_LC_6_23_1 { divisor_inst_2.counter_RNO[2], divisor_inst_2.counter[2] }
+ble_pack divisor_inst_2.counter_0_LC_6_23_2 { divisor_inst_2.counter_RNO[0], divisor_inst_2.counter[0] }
+ble_pack switch_clk_2MHz_inst.flag_output_1_LC_6_23_3 { switch_clk_2MHz_inst.flag_output_1_RNI12011_switch_clk_2MHz_inst.flag_output_1_REP_LUT4_0, switch_clk_2MHz_inst.flag_output_1 }
+ble_pack divisor_inst_2.counter_1_LC_6_23_4 { divisor_inst_2.counter_RNO[1], divisor_inst_2.counter[1] }
+ble_pack divisor_inst_2.clk_out_LC_6_23_5 { divisor_inst_2.clk_out_RNO, divisor_inst_2.clk_out }
+ble_pack flag_output_ret_LC_6_23_6 { switch_clk_2MHz_inst.SEL_0_RNI4VEB3_flag_output_ret_REP_LUT4_0, flag_output_ret }
+clb_pack LT_6_23 { switch_clk_1MHz_inst.delay_inst.delay_reg_2_LC_6_23_0, divisor_inst_2.counter_2_LC_6_23_1, divisor_inst_2.counter_0_LC_6_23_2, switch_clk_2MHz_inst.flag_output_1_LC_6_23_3, divisor_inst_2.counter_1_LC_6_23_4, divisor_inst_2.clk_out_LC_6_23_5, flag_output_ret_LC_6_23_6 }
+set_location LT_6_23 6 23
+ble_pack switch_clk_1MHz_inst.flag_input_reg_LC_6_24_0 { switch_clk_1MHz_inst.flag_input_reg_THRU_LUT4_0, switch_clk_1MHz_inst.flag_input_reg }
+ble_pack switch_clk_1MHz_inst.CLK_uC_LC_6_24_3 { switch_clk_1MHz_inst.CLK_uC_RNO, switch_clk_1MHz_inst.CLK_uC }
+ble_pack switch_clk_1MHz_inst.delay_inst.delay_reg_1_LC_6_24_4 { switch_clk_1MHz_inst.delay_inst.delay_reg_1_THRU_LUT4_0, switch_clk_1MHz_inst.delay_inst.delay_reg[1] }
+ble_pack switch_clk_1MHz_inst.counter_din_3_LC_6_24_5 { switch_clk_1MHz_inst.counter_din_RNO[3], switch_clk_1MHz_inst.counter_din[3] }
+ble_pack switch_clk_1MHz_inst.delay_inst.delay_reg_0_LC_6_24_6 { switch_clk_1MHz_inst.delay_inst.delay_reg_0_THRU_LUT4_0, switch_clk_1MHz_inst.delay_inst.delay_reg[0] }
+clb_pack LT_6_24 { switch_clk_1MHz_inst.flag_input_reg_LC_6_24_0, switch_clk_1MHz_inst.CLK_uC_LC_6_24_3, switch_clk_1MHz_inst.delay_inst.delay_reg_1_LC_6_24_4, switch_clk_1MHz_inst.counter_din_3_LC_6_24_5, switch_clk_1MHz_inst.delay_inst.delay_reg_0_LC_6_24_6 }
+set_location LT_6_24 6 24
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_64_LC_6_25_0 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[64], switch_clk_1MHz_inst.bit_sequence_stat[64] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_55_LC_6_25_4 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[55], switch_clk_1MHz_inst.bit_sequence_stat[55] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_56_LC_6_25_5 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[56], switch_clk_1MHz_inst.bit_sequence_stat[56] }
+clb_pack LT_6_25 { switch_clk_1MHz_inst.bit_sequence_stat_64_LC_6_25_0, switch_clk_1MHz_inst.bit_sequence_stat_55_LC_6_25_4, switch_clk_1MHz_inst.bit_sequence_stat_56_LC_6_25_5 }
+set_location LT_6_25 6 25
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_63_LC_6_26_6 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[63], switch_clk_1MHz_inst.bit_sequence_stat[63] }
+clb_pack LT_6_26 { switch_clk_1MHz_inst.bit_sequence_stat_63_LC_6_26_6 }
+set_location LT_6_26 6 26
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_32_LC_6_27_2 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[32], switch_clk_1MHz_inst.bit_sequence_stat[32] }
+clb_pack LT_6_27 { switch_clk_1MHz_inst.bit_sequence_stat_32_LC_6_27_2 }
+set_location LT_6_27 6 27
+ble_pack CONSTANT_ONE_LUT4_LC_7_18_1 { CONSTANT_ONE_LUT4 }
+clb_pack LT_7_18 { CONSTANT_ONE_LUT4_LC_7_18_1 }
+set_location LT_7_18 7 18
+ble_pack switch_clk_1MHz_inst.delay_inst.delay_reg_6_LC_7_19_6 { switch_clk_1MHz_inst.delay_inst.delay_reg_6_THRU_LUT4_0, switch_clk_1MHz_inst.delay_inst.delay_reg[6] }
+clb_pack LT_7_19 { switch_clk_1MHz_inst.delay_inst.delay_reg_6_LC_7_19_6 }
+set_location LT_7_19 7 19
+ble_pack divisor_inst.counter_1_LC_7_20_0 { divisor_inst.counter_RNO[1], divisor_inst.counter[1] }
+ble_pack divisor_inst.counter_0_LC_7_20_1 { divisor_inst.counter_RNO[0], divisor_inst.counter[0] }
+ble_pack switch_clk_1MHz_inst.delay_inst.delay_reg_7_LC_7_20_2 { switch_clk_1MHz_inst.delay_inst.delay_reg_7_THRU_LUT4_0, switch_clk_1MHz_inst.delay_inst.delay_reg[7] }
+ble_pack switch_clk_1MHz_inst.delay_inst.delay_reg_5_LC_7_20_3 { switch_clk_1MHz_inst.delay_inst.delay_reg_5_THRU_LUT4_0, switch_clk_1MHz_inst.delay_inst.delay_reg[5] }
+ble_pack switch_clk_1MHz_inst.delay_inst.delay_reg_4_LC_7_20_4 { switch_clk_1MHz_inst.delay_inst.delay_reg_4_THRU_LUT4_0, switch_clk_1MHz_inst.delay_inst.delay_reg[4] }
+ble_pack switch_clk_1MHz_inst.delay_inst.delay_reg_8_LC_7_20_6 { switch_clk_1MHz_inst.delay_inst.delay_reg_8_THRU_LUT4_0, switch_clk_1MHz_inst.delay_inst.delay_reg[8] }
+clb_pack LT_7_20 { divisor_inst.counter_1_LC_7_20_0, divisor_inst.counter_0_LC_7_20_1, switch_clk_1MHz_inst.delay_inst.delay_reg_7_LC_7_20_2, switch_clk_1MHz_inst.delay_inst.delay_reg_5_LC_7_20_3, switch_clk_1MHz_inst.delay_inst.delay_reg_4_LC_7_20_4, switch_clk_1MHz_inst.delay_inst.delay_reg_8_LC_7_20_6 }
+set_location LT_7_20 7 20
+ble_pack switch_clk_2MHz_inst.delay_inst.delay_reg_3_LC_7_21_1 { switch_clk_2MHz_inst.delay_inst.delay_reg_3_THRU_LUT4_0, switch_clk_2MHz_inst.delay_inst.delay_reg[3] }
+ble_pack flag_output_0_ret_LC_7_21_2 { flag_output_0_ret_RNO, flag_output_0_ret }
+ble_pack switch_clk_2MHz_inst.delay_inst.delay_reg_6_LC_7_21_4 { switch_clk_2MHz_inst.delay_inst.delay_reg_6_THRU_LUT4_0, switch_clk_2MHz_inst.delay_inst.delay_reg[6] }
+ble_pack switch_clk_1MHz_inst.delay_inst.delay_reg_3_LC_7_21_5 { switch_clk_1MHz_inst.delay_inst.delay_reg_3_THRU_LUT4_0, switch_clk_1MHz_inst.delay_inst.delay_reg[3] }
+ble_pack switch_clk_2MHz_inst.delay_inst.delay_reg_4_LC_7_21_6 { switch_clk_2MHz_inst.delay_inst.delay_reg_4_THRU_LUT4_0, switch_clk_2MHz_inst.delay_inst.delay_reg[4] }
+ble_pack switch_clk_2MHz_inst.delay_inst.delay_reg_5_LC_7_21_7 { switch_clk_2MHz_inst.delay_inst.delay_reg_5_THRU_LUT4_0, switch_clk_2MHz_inst.delay_inst.delay_reg[5] }
+clb_pack LT_7_21 { switch_clk_2MHz_inst.delay_inst.delay_reg_3_LC_7_21_1, flag_output_0_ret_LC_7_21_2, switch_clk_2MHz_inst.delay_inst.delay_reg_6_LC_7_21_4, switch_clk_1MHz_inst.delay_inst.delay_reg_3_LC_7_21_5, switch_clk_2MHz_inst.delay_inst.delay_reg_4_LC_7_21_6, switch_clk_2MHz_inst.delay_inst.delay_reg_5_LC_7_21_7 }
+set_location LT_7_21 7 21
+ble_pack config_register_latched_dec_inst.STATCNF_1_0_LC_7_22_0 { config_register_latched_dec_inst.STATCNF_1_RNIRDN51_0_config_register_latched_dec_inst.STATCNF_1_0_REP_LUT4_0, config_register_latched_dec_inst.STATCNF_1[0] }
+clb_pack LT_7_22 { config_register_latched_dec_inst.STATCNF_1_0_LC_7_22_0 }
+set_location LT_7_22 7 22
+ble_pack config_register_latched_dec_inst.DYNSR_0_LC_7_23_0 { config_register_latched_dec_inst.DYNSR_RNO[0], config_register_latched_dec_inst.DYNSR[0] }
+ble_pack config_register_latched_dec_inst.STATSR_0_LC_7_23_1 { config_register_latched_dec_inst.STATSR_RNO[0], config_register_latched_dec_inst.STATSR[0] }
+clb_pack LT_7_23 { config_register_latched_dec_inst.DYNSR_0_LC_7_23_0, config_register_latched_dec_inst.STATSR_0_LC_7_23_1 }
+set_location LT_7_23 7 23
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_12_LC_7_24_0 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[12], switch_clk_1MHz_inst.bit_sequence_stat[12] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_33_LC_7_24_1 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[33], switch_clk_1MHz_inst.bit_sequence_stat[33] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_15_LC_7_24_2 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[15], switch_clk_1MHz_inst.bit_sequence_stat[15] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_54_LC_7_24_3 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[54], switch_clk_1MHz_inst.bit_sequence_stat[54] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_52_LC_7_24_4 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[52], switch_clk_1MHz_inst.bit_sequence_stat[52] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_13_LC_7_24_5 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[13], switch_clk_1MHz_inst.bit_sequence_stat[13] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_9_LC_7_24_6 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[9], switch_clk_1MHz_inst.bit_sequence_stat[9] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_14_LC_7_24_7 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[14], switch_clk_1MHz_inst.bit_sequence_stat[14] }
+clb_pack LT_7_24 { switch_clk_1MHz_inst.bit_sequence_stat_12_LC_7_24_0, switch_clk_1MHz_inst.bit_sequence_stat_33_LC_7_24_1, switch_clk_1MHz_inst.bit_sequence_stat_15_LC_7_24_2, switch_clk_1MHz_inst.bit_sequence_stat_54_LC_7_24_3, switch_clk_1MHz_inst.bit_sequence_stat_52_LC_7_24_4, switch_clk_1MHz_inst.bit_sequence_stat_13_LC_7_24_5, switch_clk_1MHz_inst.bit_sequence_stat_9_LC_7_24_6, switch_clk_1MHz_inst.bit_sequence_stat_14_LC_7_24_7 }
+set_location LT_7_24 7 24
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_53_LC_7_25_1 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[53], switch_clk_1MHz_inst.bit_sequence_stat[53] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_11_LC_7_25_2 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[11], switch_clk_1MHz_inst.bit_sequence_stat[11] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_10_LC_7_25_7 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[10], switch_clk_1MHz_inst.bit_sequence_stat[10] }
+clb_pack LT_7_25 { switch_clk_1MHz_inst.bit_sequence_stat_53_LC_7_25_1, switch_clk_1MHz_inst.bit_sequence_stat_11_LC_7_25_2, switch_clk_1MHz_inst.bit_sequence_stat_10_LC_7_25_7 }
+set_location LT_7_25 7 25
+ble_pack switch_clk_1MHz_inst.delay_inst.delay_reg_13_LC_9_20_1 { switch_clk_1MHz_inst.delay_inst.delay_reg_13_THRU_LUT4_0, switch_clk_1MHz_inst.delay_inst.delay_reg[13] }
+ble_pack switch_clk_1MHz_inst.delay_inst.delay_reg_9_LC_9_20_2 { switch_clk_1MHz_inst.delay_inst.delay_reg_9_THRU_LUT4_0, switch_clk_1MHz_inst.delay_inst.delay_reg[9] }
+ble_pack switch_clk_1MHz_inst.delay_inst.delay_reg_11_LC_9_20_3 { switch_clk_1MHz_inst.delay_inst.delay_reg_11_THRU_LUT4_0, switch_clk_1MHz_inst.delay_inst.delay_reg[11] }
+ble_pack switch_clk_1MHz_inst.delay_inst.delay_reg_10_LC_9_20_5 { switch_clk_1MHz_inst.delay_inst.delay_reg_10_THRU_LUT4_0, switch_clk_1MHz_inst.delay_inst.delay_reg[10] }
+ble_pack switch_clk_1MHz_inst.delay_inst.delay_reg_12_LC_9_20_7 { switch_clk_1MHz_inst.delay_inst.delay_reg_12_THRU_LUT4_0, switch_clk_1MHz_inst.delay_inst.delay_reg[12] }
+clb_pack LT_9_20 { switch_clk_1MHz_inst.delay_inst.delay_reg_13_LC_9_20_1, switch_clk_1MHz_inst.delay_inst.delay_reg_9_LC_9_20_2, switch_clk_1MHz_inst.delay_inst.delay_reg_11_LC_9_20_3, switch_clk_1MHz_inst.delay_inst.delay_reg_10_LC_9_20_5, switch_clk_1MHz_inst.delay_inst.delay_reg_12_LC_9_20_7 }
+set_location LT_9_20 9 20
+ble_pack switch_clk_1MHz_inst.delay_inst.delay_reg_14_LC_9_21_6 { switch_clk_1MHz_inst.delay_inst.delay_reg_14_THRU_LUT4_0, switch_clk_1MHz_inst.delay_inst.delay_reg[14] }
+ble_pack switch_clk_1MHz_inst.delay_inst.delay_reg_15_LC_9_21_7 { switch_clk_1MHz_inst.delay_inst.delay_reg_15_THRU_LUT4_0, switch_clk_1MHz_inst.delay_inst.delay_reg[15] }
+clb_pack LT_9_21 { switch_clk_1MHz_inst.delay_inst.delay_reg_14_LC_9_21_6, switch_clk_1MHz_inst.delay_inst.delay_reg_15_LC_9_21_7 }
+set_location LT_9_21 9 21
+ble_pack config_register_latched_dec_inst.STATCNF_1_RNIRDN51_0_LC_9_22_7 { config_register_latched_dec_inst.STATCNF_1_RNIRDN51[0] }
+clb_pack LT_9_22 { config_register_latched_dec_inst.STATCNF_1_RNIRDN51_0_LC_9_22_7 }
+set_location LT_9_22 9 22
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_81_LC_9_23_0 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[81], switch_clk_1MHz_inst.bit_sequence_stat[81] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_50_LC_9_23_1 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[50], switch_clk_1MHz_inst.bit_sequence_stat[50] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_82_LC_9_23_2 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[82], switch_clk_1MHz_inst.bit_sequence_stat[82] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_87_LC_9_23_3 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[87], switch_clk_1MHz_inst.bit_sequence_stat[87] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_86_LC_9_23_4 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[86], switch_clk_1MHz_inst.bit_sequence_stat[86] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_49_LC_9_23_5 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[49], switch_clk_1MHz_inst.bit_sequence_stat[49] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_48_LC_9_23_6 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[48], switch_clk_1MHz_inst.bit_sequence_stat[48] }
+clb_pack LT_9_23 { switch_clk_1MHz_inst.bit_sequence_stat_81_LC_9_23_0, switch_clk_1MHz_inst.bit_sequence_stat_50_LC_9_23_1, switch_clk_1MHz_inst.bit_sequence_stat_82_LC_9_23_2, switch_clk_1MHz_inst.bit_sequence_stat_87_LC_9_23_3, switch_clk_1MHz_inst.bit_sequence_stat_86_LC_9_23_4, switch_clk_1MHz_inst.bit_sequence_stat_49_LC_9_23_5, switch_clk_1MHz_inst.bit_sequence_stat_48_LC_9_23_6 }
+set_location LT_9_23 9 23
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_16_LC_9_24_0 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[16], switch_clk_1MHz_inst.bit_sequence_stat[16] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_51_LC_9_24_2 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[51], switch_clk_1MHz_inst.bit_sequence_stat[51] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_35_LC_9_24_4 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[35], switch_clk_1MHz_inst.bit_sequence_stat[35] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_34_LC_9_24_5 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[34], switch_clk_1MHz_inst.bit_sequence_stat[34] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_66_LC_9_24_6 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[66], switch_clk_1MHz_inst.bit_sequence_stat[66] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_67_LC_9_24_7 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[67], switch_clk_1MHz_inst.bit_sequence_stat[67] }
+clb_pack LT_9_24 { switch_clk_1MHz_inst.bit_sequence_stat_16_LC_9_24_0, switch_clk_1MHz_inst.bit_sequence_stat_51_LC_9_24_2, switch_clk_1MHz_inst.bit_sequence_stat_35_LC_9_24_4, switch_clk_1MHz_inst.bit_sequence_stat_34_LC_9_24_5, switch_clk_1MHz_inst.bit_sequence_stat_66_LC_9_24_6, switch_clk_1MHz_inst.bit_sequence_stat_67_LC_9_24_7 }
+set_location LT_9_24 9 24
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_42_LC_9_25_1 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[42], switch_clk_1MHz_inst.bit_sequence_stat[42] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_74_LC_9_25_2 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[74], switch_clk_1MHz_inst.bit_sequence_stat[74] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_65_LC_9_25_3 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[65], switch_clk_1MHz_inst.bit_sequence_stat[65] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_76_LC_9_25_4 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[76], switch_clk_1MHz_inst.bit_sequence_stat[76] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_75_LC_9_25_6 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[75], switch_clk_1MHz_inst.bit_sequence_stat[75] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_68_LC_9_25_7 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[68], switch_clk_1MHz_inst.bit_sequence_stat[68] }
+clb_pack LT_9_25 { switch_clk_1MHz_inst.bit_sequence_stat_42_LC_9_25_1, switch_clk_1MHz_inst.bit_sequence_stat_74_LC_9_25_2, switch_clk_1MHz_inst.bit_sequence_stat_65_LC_9_25_3, switch_clk_1MHz_inst.bit_sequence_stat_76_LC_9_25_4, switch_clk_1MHz_inst.bit_sequence_stat_75_LC_9_25_6, switch_clk_1MHz_inst.bit_sequence_stat_68_LC_9_25_7 }
+set_location LT_9_25 9 25
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_46_LC_9_26_0 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[46], switch_clk_1MHz_inst.bit_sequence_stat[46] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_43_LC_9_26_1 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[43], switch_clk_1MHz_inst.bit_sequence_stat[43] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_44_LC_9_26_2 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[44], switch_clk_1MHz_inst.bit_sequence_stat[44] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_45_LC_9_26_3 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[45], switch_clk_1MHz_inst.bit_sequence_stat[45] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_47_LC_9_26_5 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[47], switch_clk_1MHz_inst.bit_sequence_stat[47] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_69_LC_9_26_6 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[69], switch_clk_1MHz_inst.bit_sequence_stat[69] }
+clb_pack LT_9_26 { switch_clk_1MHz_inst.bit_sequence_stat_46_LC_9_26_0, switch_clk_1MHz_inst.bit_sequence_stat_43_LC_9_26_1, switch_clk_1MHz_inst.bit_sequence_stat_44_LC_9_26_2, switch_clk_1MHz_inst.bit_sequence_stat_45_LC_9_26_3, switch_clk_1MHz_inst.bit_sequence_stat_47_LC_9_26_5, switch_clk_1MHz_inst.bit_sequence_stat_69_LC_9_26_6 }
+set_location LT_9_26 9 26
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_70_LC_9_27_0 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[70], switch_clk_1MHz_inst.bit_sequence_stat[70] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_71_LC_9_27_4 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[71], switch_clk_1MHz_inst.bit_sequence_stat[71] }
+clb_pack LT_9_27 { switch_clk_1MHz_inst.bit_sequence_stat_70_LC_9_27_0, switch_clk_1MHz_inst.bit_sequence_stat_71_LC_9_27_4 }
+set_location LT_9_27 9 27
+ble_pack switch_clk_1MHz_inst.MOSI_er_LC_10_22_0 { switch_clk_1MHz_inst.MOSI_er_RNO, switch_clk_1MHz_inst.MOSI_er }
+clb_pack LT_10_22 { switch_clk_1MHz_inst.MOSI_er_LC_10_22_0 }
+set_location LT_10_22 10 22
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_85_LC_10_23_0 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[85], switch_clk_1MHz_inst.bit_sequence_stat[85] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_83_LC_10_23_1 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[83], switch_clk_1MHz_inst.bit_sequence_stat[83] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_84_LC_10_23_6 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[84], switch_clk_1MHz_inst.bit_sequence_stat[84] }
+clb_pack LT_10_23 { switch_clk_1MHz_inst.bit_sequence_stat_85_LC_10_23_0, switch_clk_1MHz_inst.bit_sequence_stat_83_LC_10_23_1, switch_clk_1MHz_inst.bit_sequence_stat_84_LC_10_23_6 }
+set_location LT_10_23 10 23
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_17_LC_10_24_0 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[17], switch_clk_1MHz_inst.bit_sequence_stat[17] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_40_LC_10_24_1 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[40], switch_clk_1MHz_inst.bit_sequence_stat[40] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_80_LC_10_24_2 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[80], switch_clk_1MHz_inst.bit_sequence_stat[80] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_8_LC_10_24_3 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[8], switch_clk_1MHz_inst.bit_sequence_stat[8] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_7_LC_10_24_4 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[7], switch_clk_1MHz_inst.bit_sequence_stat[7] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_6_LC_10_24_5 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[6], switch_clk_1MHz_inst.bit_sequence_stat[6] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_21_LC_10_24_6 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[21], switch_clk_1MHz_inst.bit_sequence_stat[21] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_41_LC_10_24_7 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[41], switch_clk_1MHz_inst.bit_sequence_stat[41] }
+clb_pack LT_10_24 { switch_clk_1MHz_inst.bit_sequence_stat_17_LC_10_24_0, switch_clk_1MHz_inst.bit_sequence_stat_40_LC_10_24_1, switch_clk_1MHz_inst.bit_sequence_stat_80_LC_10_24_2, switch_clk_1MHz_inst.bit_sequence_stat_8_LC_10_24_3, switch_clk_1MHz_inst.bit_sequence_stat_7_LC_10_24_4, switch_clk_1MHz_inst.bit_sequence_stat_6_LC_10_24_5, switch_clk_1MHz_inst.bit_sequence_stat_21_LC_10_24_6, switch_clk_1MHz_inst.bit_sequence_stat_41_LC_10_24_7 }
+set_location LT_10_24 10 24
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_22_LC_10_25_0 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[22], switch_clk_1MHz_inst.bit_sequence_stat[22] }
+clb_pack LT_10_25 { switch_clk_1MHz_inst.bit_sequence_stat_22_LC_10_25_0 }
+set_location LT_10_25 10 25
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_73_LC_10_26_7 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[73], switch_clk_1MHz_inst.bit_sequence_stat[73] }
+clb_pack LT_10_26 { switch_clk_1MHz_inst.bit_sequence_stat_73_LC_10_26_7 }
+set_location LT_10_26 10 26
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_72_LC_10_27_5 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[72], switch_clk_1MHz_inst.bit_sequence_stat[72] }
+clb_pack LT_10_27 { switch_clk_1MHz_inst.bit_sequence_stat_72_LC_10_27_5 }
+set_location LT_10_27 10 27
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_20_LC_11_24_0 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[20], switch_clk_1MHz_inst.bit_sequence_stat[20] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_18_LC_11_24_1 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[18], switch_clk_1MHz_inst.bit_sequence_stat[18] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_4_LC_11_24_2 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[4], switch_clk_1MHz_inst.bit_sequence_stat[4] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_78_LC_11_24_3 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[78], switch_clk_1MHz_inst.bit_sequence_stat[78] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_79_LC_11_24_4 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[79], switch_clk_1MHz_inst.bit_sequence_stat[79] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_5_LC_11_24_6 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[5], switch_clk_1MHz_inst.bit_sequence_stat[5] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_19_LC_11_24_7 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[19], switch_clk_1MHz_inst.bit_sequence_stat[19] }
+clb_pack LT_11_24 { switch_clk_1MHz_inst.bit_sequence_stat_20_LC_11_24_0, switch_clk_1MHz_inst.bit_sequence_stat_18_LC_11_24_1, switch_clk_1MHz_inst.bit_sequence_stat_4_LC_11_24_2, switch_clk_1MHz_inst.bit_sequence_stat_78_LC_11_24_3, switch_clk_1MHz_inst.bit_sequence_stat_79_LC_11_24_4, switch_clk_1MHz_inst.bit_sequence_stat_5_LC_11_24_6, switch_clk_1MHz_inst.bit_sequence_stat_19_LC_11_24_7 }
+set_location LT_11_24 11 24
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_77_LC_11_26_0 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[77], switch_clk_1MHz_inst.bit_sequence_stat[77] }
+clb_pack LT_11_26 { switch_clk_1MHz_inst.bit_sequence_stat_77_LC_11_26_0 }
+set_location LT_11_26 11 26
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_39_LC_12_24_1 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[39], switch_clk_1MHz_inst.bit_sequence_stat[39] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_3_LC_12_24_4 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[3], switch_clk_1MHz_inst.bit_sequence_stat[3] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_38_LC_12_24_5 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[38], switch_clk_1MHz_inst.bit_sequence_stat[38] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_2_LC_12_24_6 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[2], switch_clk_1MHz_inst.bit_sequence_stat[2] }
+clb_pack LT_12_24 { switch_clk_1MHz_inst.bit_sequence_stat_39_LC_12_24_1, switch_clk_1MHz_inst.bit_sequence_stat_3_LC_12_24_4, switch_clk_1MHz_inst.bit_sequence_stat_38_LC_12_24_5, switch_clk_1MHz_inst.bit_sequence_stat_2_LC_12_24_6 }
+set_location LT_12_24 12 24
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_0_LC_12_26_0 { switch_clk_1MHz_inst.current_state_RNI1TCQ_0_1_switch_clk_1MHz_inst.bit_sequence_stat_0_REP_LUT4_0, switch_clk_1MHz_inst.bit_sequence_stat[0] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_1_LC_12_26_1 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[1], switch_clk_1MHz_inst.bit_sequence_stat[1] }
+clb_pack LT_12_26 { switch_clk_1MHz_inst.bit_sequence_stat_0_LC_12_26_0, switch_clk_1MHz_inst.bit_sequence_stat_1_LC_12_26_1 }
+set_location LT_12_26 12 26
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_37_LC_13_24_1 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[37], switch_clk_1MHz_inst.bit_sequence_stat[37] }
+ble_pack switch_clk_1MHz_inst.bit_sequence_stat_36_LC_13_24_7 { switch_clk_1MHz_inst.bit_sequence_stat_RNO[36], switch_clk_1MHz_inst.bit_sequence_stat[36] }
+clb_pack LT_13_24 { switch_clk_1MHz_inst.bit_sequence_stat_37_LC_13_24_1, switch_clk_1MHz_inst.bit_sequence_stat_36_LC_13_24_7 }
+set_location LT_13_24 13 24
+ble_pack config_register_latched_dec_inst.STATCNF_1_RNIRDN51_0_0_LC_32_22_5 { config_register_latched_dec_inst.STATCNF_1_RNIRDN51_0[0] }
+clb_pack LT_32_22 { config_register_latched_dec_inst.STATCNF_1_RNIRDN51_0_0_LC_32_22_5 }
+set_location LT_32_22 32 22
+set_location CLK_ibuf_gb_io_gb 16 33
+set_location RST_N_ibuf_RNIBJGC_0 0 16
+set_location switch_clk_2MHz_inst.current_state_fast_fast_RNI0KTV_0[1] 0 17
+set_location switch_clk_1MHz_inst.current_state_RNITOE91_1[1] 17 33
+set_io xor_out_dyn J1
+set_io sel_output A9
+set_io clk_output A6
+set_io CLK B2
+set_io xor_out_stat C9
+set_io mosi_output H9
+set_io miso_input A8
+set_io RST_N C2

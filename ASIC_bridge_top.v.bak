@@ -1,8 +1,8 @@
 /*
-* Raul Lora Rivera - pll test rapido
-* TOP.v
+* Raul Lora Rivera
+* ASIC BRIDGE TOP.v
 */
-module top(
+module ASIC_bridge_top(
 	CLK,		
 	RST_N,
 	clk_output,
@@ -68,17 +68,9 @@ module top(
 	wire [SIZESRDYN-1:0] DYNCNF;
 	wire [SIZESRSTAT-1:0] STATCNF;
 
-	// Instancio PLL con dos puertos (el A que permite el gating, y el B que saca un reloj continuo)
-	top_pll top_pll_inst(
-		.REFERENCECLK(CLK),
-		.PLLOUTCORE(),
-		.PLLOUTGLOBAL(clk_pll),
-		.RESET(RST_N)
-	);
-
 	// Instanciación del divisor de frecuencia con un factor de 4
 	freq_div #(.DIVISOR(8)) divisor_inst (
-		.clk_in(clk_pll),
+		.clk_in(CLK),
 		.RST_N(RST_N),
 		.clk_out(clk_continuous_fast)
 	);
@@ -88,7 +80,7 @@ module top(
 		.BIT_SEQUENCE_DIN_INIT(16'h4321),    			// Valor personalizado para el registro dinámico
 		.BIT_SEQUENCE_STAT_INIT(88'hFEDCBA9876543210012345)  // Valor personalizado para el registro estático
     	) FSM_TEST_inst_RAPIDA(
-		.CLK(clk_pll),					// Rápido continuo
+		.CLK(CLK),					// Rápido continuo
 		.CLK_slow_original(clk_continuous_fast),		// Lento continuo, salida del divisor de frecuencia
 		.CLK_uC_7(clk_out_fast),					// Salida del lento, sólo activo en los estados correspondientes
 		.RST_N(RST_N),
@@ -100,7 +92,7 @@ module top(
 
 	// Instanciación del divisor de frecuencia con un factor de 4
 	freq_div #(.DIVISOR(16)) divisor_inst_2 (
-		.clk_in(clk_pll),
+		.clk_in(CLK),
 		.RST_N(RST_N),
 		.clk_out(clk_continuous_slow)
 	);
@@ -110,7 +102,7 @@ module top(
 		.BIT_SEQUENCE_DIN_INIT(16'hABCD),    			// Valor personalizado para el registro dinámico
 		.BIT_SEQUENCE_STAT_INIT(88'h123456789ABCDEF1234567)  // Valor personalizado para el registro estático
     	) FSM_TEST_inst_slow(
-		.CLK(clk_pll),					// Rápido continuo
+		.CLK(CLK),					// Rápido continuo
 		.CLK_slow_original(clk_continuous_slow),		// Lento continuo, salida del divisor de frecuencia
 		.CLK_uC_7(clk_out_slow),					// Salida del lento, sólo activo en los estados correspondientes
 		.RST_N(RST_N),

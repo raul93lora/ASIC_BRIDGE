@@ -2,13 +2,13 @@
 #-- Project file C:\Users\raul.lora\Documents\prPLL_test\pr_PLL_test\pr_PLL_test_syn.prj
 #project files
 
-add_file -verilog -lib work "../top.v" 
 add_file -verilog -lib work "../freq_div.v" 
-add_file -verilog -lib work "../FSM_TEST_slow.v" 
 add_file -verilog -lib work "../config_register_latched_dec.v" 
-add_file -verilog -lib work "../FSM_TEST_RAPIDA.v" 
-add_file -verilog -lib work "../top_pll.v" 
 add_file -verilog -lib work "../xor_n_bits.v" 
+add_file -verilog -lib work "../ASIC_bridge_top.v" 
+add_file -verilog -lib work "../delay_chain.v" 
+add_file -verilog -lib work "../switch_clk_2MHz.v" 
+add_file -verilog -lib work "../switch_clk_1MHz.v" 
 #implementation: "pr_PLL_test_Implmnt"
 impl -add pr_PLL_test_Implmnt -type fpga
 

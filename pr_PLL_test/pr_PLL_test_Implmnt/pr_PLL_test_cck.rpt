@@ -1,12 +1,12 @@
 # Synopsys Constraint Checker, version maplat, Build 1612R, built Dec  5 2016
 # Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
 
-# Written on Thu Apr 10 16:56:16 2025
+# Written on Thu May 15 16:29:08 2025
 
 
 ##### DESIGN INFO #######################################################
 
-Top View:                "top"
+Top View:                "ASIC_bridge_top"
 Constraint File(s):      (none)
 
 
@@ -24,20 +24,19 @@ Found 0 issues in 0 out of 0 constraints
 Clock Relationships
 *******************
 
-Starting                               Ending                                 |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-top_pll|PLLOUTGLOBAL_derived_clock     top_pll|PLLOUTGLOBAL_derived_clock     |     1000.000         |     No paths         |     No paths         |     No paths                         
-top_pll|PLLOUTGLOBAL_derived_clock     freq_div_8s|clk_out_derived_clock      |     1000.000         |     No paths         |     No paths         |     No paths                         
-top_pll|PLLOUTGLOBAL_derived_clock     freq_div_16s|clk_out_derived_clock     |     1000.000         |     No paths         |     No paths         |     No paths                         
-freq_div_8s|clk_out_derived_clock      top_pll|PLLOUTGLOBAL_derived_clock     |     1000.000         |     No paths         |     No paths         |     No paths                         
-freq_div_8s|clk_out_derived_clock      freq_div_8s|clk_out_derived_clock      |     1000.000         |     No paths         |     No paths         |     No paths                         
-freq_div_8s|clk_out_derived_clock      top|clk_output_inferred_clock          |     Diff grp         |     No paths         |     No paths         |     No paths                         
-freq_div_16s|clk_out_derived_clock     top_pll|PLLOUTGLOBAL_derived_clock     |     1000.000         |     No paths         |     No paths         |     No paths                         
-freq_div_16s|clk_out_derived_clock     freq_div_16s|clk_out_derived_clock     |     1000.000         |     No paths         |     No paths         |     No paths                         
-freq_div_16s|clk_out_derived_clock     top|clk_output_inferred_clock          |     Diff grp         |     No paths         |     No paths         |     No paths                         
-top|clk_output_inferred_clock          System                                 |     0.706            |     No paths         |     No paths         |     No paths                         
-top|clk_output_inferred_clock          top|clk_output_inferred_clock          |     0.706            |     No paths         |     No paths         |     No paths                         
-=========================================================================================================================================================================================
+Starting                                      Ending                                        |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ASIC_bridge_top|CLK                           ASIC_bridge_top|CLK                           |     1000.000         |     No paths         |     No paths         |     No paths                         
+ASIC_bridge_top|CLK                           freq_div_8s|clk_out_derived_clock             |     1000.000         |     No paths         |     No paths         |     No paths                         
+ASIC_bridge_top|CLK                           freq_div_16s|clk_out_derived_clock            |     1000.000         |     No paths         |     No paths         |     No paths                         
+freq_div_8s|clk_out_derived_clock             ASIC_bridge_top|CLK                           |     1000.000         |     No paths         |     No paths         |     No paths                         
+freq_div_8s|clk_out_derived_clock             freq_div_8s|clk_out_derived_clock             |     1000.000         |     No paths         |     No paths         |     No paths                         
+freq_div_8s|clk_out_derived_clock             ASIC_bridge_top|clk_output_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+freq_div_16s|clk_out_derived_clock            ASIC_bridge_top|CLK                           |     1000.000         |     No paths         |     No paths         |     No paths                         
+freq_div_16s|clk_out_derived_clock            freq_div_16s|clk_out_derived_clock            |     1000.000         |     No paths         |     No paths         |     No paths                         
+freq_div_16s|clk_out_derived_clock            ASIC_bridge_top|clk_output_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ASIC_bridge_top|clk_output_inferred_clock     System                                        |     0.706            |     No paths         |     No paths         |     No paths                         
+=======================================================================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
 
@@ -48,9 +47,6 @@ Unconstrained Start/End Points
 p:RST_N
 p:miso_input
 p:mosi_output
-p:s12
-p:s13
-p:s14
 p:sel_output
 p:xor_out_dyn
 p:xor_out_stat

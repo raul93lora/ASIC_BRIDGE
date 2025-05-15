@@ -1,0 +1,14 @@
+###############################################################################
+# Constraint file (.pcf) to define the interface of 64CH system  implemented  #
+# in IC40LP8K FPGA (ICE40LP8K-CM81)					   			          #
+###############################################################################
+
+# BANK 0
+set_io CLK B2
+set_io RST_N A7
+set_io s15 A9
+set_io s14 D2
+set_io s13 E2
+set_io s12 H1
+
+
