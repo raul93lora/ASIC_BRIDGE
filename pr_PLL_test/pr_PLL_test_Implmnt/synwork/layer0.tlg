@@ -1,0 +1,130 @@
+Selecting top level module top
+@N: CG364 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v":698:7:698:19|Synthesizing module SB_PLL40_CORE in library work.
+
+@N: CG364 :"C:\Users\raul.lora\Documents\prPLL_test\top_pll.v":1:7:1:13|Synthesizing module top_pll in library work.
+
+@W: CG781 :"C:\Users\raul.lora\Documents\prPLL_test\top_pll.v":14:39:14:39|Input EXTFEEDBACK on instance top_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\raul.lora\Documents\prPLL_test\top_pll.v":15:40:15:40|Input DYNAMICDELAY on instance top_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\raul.lora\Documents\prPLL_test\top_pll.v":18:43:18:43|Input LATCHINPUTVALUE on instance top_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\raul.lora\Documents\prPLL_test\top_pll.v":20:31:20:31|Input SDI on instance top_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\raul.lora\Documents\prPLL_test\top_pll.v":22:32:22:32|Input SCLK on instance top_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@N: CG364 :"C:\Users\raul.lora\Documents\prPLL_test\freq_div.v":1:7:1:14|Synthesizing module freq_div in library work.
+
+	DIVISOR=32'b00000000000000000000000000001000
+   Generated name = freq_div_8s
+
+@N: CG364 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_RAPIDA.v":4:7:4:21|Synthesizing module FSM_TEST_RAPIDA in library work.
+
+	BIT_SEQUENCE_DIN_INIT=16'b0100001100100001
+	BIT_SEQUENCE_STAT_INIT=88'b1111111011011100101110101001100001110110010101000011001000010000000000010010001101000101
+	SIZESRSTAT=32'b00000000000000000000000001011000
+	SIZESRDYN=32'b00000000000000000000000000010000
+	N_CYCLES_IDLE=32'b00000000000000000000000000111100
+	N_CYCLES_DYN_READ=32'b00000000000000000000000000010000
+	N_CYCLES_STATIC_READ=32'b00000000000000000000000001011000
+	IDLE=3'b000
+	DYN_READ=3'b001
+	STATIC_READ=3'b010
+	INDEF_STATE=3'b011
+   Generated name = FSM_TEST_RAPIDA_Z1
+
+@W: CG133 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_RAPIDA.v":46:5:46:13|Object CLK_uC_6d is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_RAPIDA.v":47:5:47:13|Object CLK_uC_6e is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_RAPIDA.v":48:5:48:13|Object CLK_uC_6f is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_RAPIDA.v":49:5:49:13|Object CLK_uC_6g is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_RAPIDA.v":50:5:50:13|Object CLK_uC_6h is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_RAPIDA.v":51:5:51:13|Object CLK_uC_6i is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_RAPIDA.v":52:5:52:13|Object CLK_uC_6j is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\raul.lora\Documents\prPLL_test\freq_div.v":1:7:1:14|Synthesizing module freq_div in library work.
+
+	DIVISOR=32'b00000000000000000000000000010000
+   Generated name = freq_div_16s
+
+@N: CG364 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_slow.v":4:7:4:19|Synthesizing module FSM_TEST_slow in library work.
+
+	BIT_SEQUENCE_DIN_INIT=16'b1010101111001101
+	BIT_SEQUENCE_STAT_INIT=88'b0001001000110100010101100111100010011010101111001101111011110001001000110100010101100111
+	SIZESRSTAT=32'b00000000000000000000000001011000
+	SIZESRDYN=32'b00000000000000000000000000010000
+	N_CYCLES_IDLE=32'b00000000000000000000000011001000
+	N_CYCLES_DYN_READ=32'b00000000000000000000000000010000
+	N_CYCLES_STATIC_READ=32'b00000000000000000000000001011000
+	IDLE=3'b000
+	DYN_READ=3'b001
+	STATIC_READ=3'b010
+	INDEF_STATE=3'b011
+   Generated name = FSM_TEST_slow_Z2
+
+@W: CG133 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_slow.v":53:5:53:13|Object CLK_uC_6m is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_slow.v":55:5:55:13|Object CLK_uC_6n is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_slow.v":56:5:56:13|Object CLK_uC_6o is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_slow.v":57:5:57:13|Object CLK_uC_6p is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_slow.v":58:5:58:13|Object CLK_uC_6q is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_slow.v":59:5:59:13|Object CLK_uC_6r is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_slow.v":60:5:60:13|Object CLK_uC_6s is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_slow.v":61:5:61:13|Object CLK_uC_6t is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_slow.v":62:5:62:13|Object CLK_uC_6u is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_slow.v":63:5:63:13|Object CLK_uC_6v is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_slow.v":64:5:64:13|Object CLK_uC_6w is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_slow.v":65:5:65:13|Object CLK_uC_6x is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_slow.v":66:5:66:13|Object CLK_uC_6y is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_slow.v":67:5:67:13|Object CLK_uC_6z is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\raul.lora\Documents\prPLL_test\config_register_latched_dec.v":8:7:8:33|Synthesizing module config_register_latched_dec in library work.
+
+@W: CL118 :"C:\Users\raul.lora\Documents\prPLL_test\config_register_latched_dec.v":103:2:103:3|Latch generated from always block for signal DYNCNF[15:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"C:\Users\raul.lora\Documents\prPLL_test\config_register_latched_dec.v":93:2:93:3|Latch generated from always block for signal STATCNF[87:0]; possible missing assignment in an if or case statement.
+@N: CG364 :"C:\Users\raul.lora\Documents\prPLL_test\xor_n_bits.v":1:7:1:16|Synthesizing module xor_n_bits in library work.
+
+	N=32'b00000000000000000000000000010000
+   Generated name = xor_n_bits_16s
+
+@N: CG364 :"C:\Users\raul.lora\Documents\prPLL_test\xor_n_bits.v":1:7:1:16|Synthesizing module xor_n_bits in library work.
+
+	N=32'b00000000000000000000000001011000
+   Generated name = xor_n_bits_88s
+
+@N: CG364 :"C:\Users\raul.lora\Documents\prPLL_test\top.v":5:7:5:9|Synthesizing module top in library work.
+
+@W: CS263 :"C:\Users\raul.lora\Documents\prPLL_test\top.v":96:14:96:14|Port-width mismatch for port flag_input. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Users\raul.lora\Documents\prPLL_test\top.v":155:10:155:20|Port-width mismatch for port result. The port definition is 16 bits, but the actual port connection bit width is 1. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Users\raul.lora\Documents\prPLL_test\top.v":162:10:162:21|Port-width mismatch for port result. The port definition is 88 bits, but the actual port connection bit width is 1. Adjust either the definition or the instantiation of this port.
+@W: CG360 :"C:\Users\raul.lora\Documents\prPLL_test\top.v":41:6:41:23|Removing wire clk_pll_continuous, as there is no assignment to it.
+@W: CG360 :"C:\Users\raul.lora\Documents\prPLL_test\top.v":46:6:46:9|Removing wire mosi, as there is no assignment to it.
+@W: CG360 :"C:\Users\raul.lora\Documents\prPLL_test\top.v":49:6:49:18|Removing wire aux_selection, as there is no assignment to it.
+@W: CG360 :"C:\Users\raul.lora\Documents\prPLL_test\top.v":59:6:59:16|Removing wire latch_input, as there is no assignment to it.
+@W: CG360 :"C:\Users\raul.lora\Documents\prPLL_test\top.v":65:22:65:29|Removing wire DYNLATCH, as there is no assignment to it.
+@W: CG360 :"C:\Users\raul.lora\Documents\prPLL_test\top.v":66:23:66:31|Removing wire STATLATCH, as there is no assignment to it.
+@N: CL135 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_slow.v":96:1:96:6|Found sequential shift CLK_uC with address depth of 17 words and data bit width of 1.
+@W: CL190 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_slow.v":241:5:241:10|Optimizing register bit counter_idle[8] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_slow.v":241:5:241:10|Optimizing register bit counter_idle[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_slow.v":241:5:241:10|Optimizing register bit counter_idle[10] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_slow.v":241:5:241:10|Optimizing register bit counter_idle[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_slow.v":241:5:241:10|Optimizing register bit counter_idle[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_slow.v":241:5:241:10|Optimizing register bit counter_idle[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_slow.v":241:5:241:10|Pruning register bits 13 to 8 of counter_idle[13:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL201 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_slow.v":178:5:178:10|Trying to extract state machine for register current_state.
+Extracted state machine for register current_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL135 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_RAPIDA.v":81:1:81:6|Found sequential shift CLK_uC with address depth of 8 words and data bit width of 1.
+@W: CL190 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_RAPIDA.v":200:5:200:10|Optimizing register bit counter_idle[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_RAPIDA.v":200:5:200:10|Optimizing register bit counter_idle[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_RAPIDA.v":200:5:200:10|Optimizing register bit counter_idle[8] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_RAPIDA.v":200:5:200:10|Optimizing register bit counter_idle[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_RAPIDA.v":200:5:200:10|Optimizing register bit counter_idle[10] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_RAPIDA.v":200:5:200:10|Optimizing register bit counter_idle[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_RAPIDA.v":200:5:200:10|Optimizing register bit counter_idle[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_RAPIDA.v":200:5:200:10|Optimizing register bit counter_idle[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_RAPIDA.v":200:5:200:10|Pruning register bits 13 to 6 of counter_idle[13:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL201 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_RAPIDA.v":131:5:131:10|Trying to extract state machine for register current_state.
+Extracted state machine for register current_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@W: CL190 :"C:\Users\raul.lora\Documents\prPLL_test\freq_div.v":13:4:13:9|Optimizing register bit counter[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\raul.lora\Documents\prPLL_test\freq_div.v":13:4:13:9|Pruning register bit 2 of counter[2:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.

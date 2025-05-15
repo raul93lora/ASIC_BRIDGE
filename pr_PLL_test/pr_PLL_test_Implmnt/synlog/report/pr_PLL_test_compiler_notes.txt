@@ -1,0 +1,20 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v":698:7:698:19|Synthesizing module SB_PLL40_CORE in library work.
+@N: CG364 :"C:\Users\raul.lora\Documents\prPLL_test\top_pll.v":1:7:1:13|Synthesizing module top_pll in library work.
+@N: CG364 :"C:\Users\raul.lora\Documents\prPLL_test\freq_div.v":1:7:1:14|Synthesizing module freq_div in library work.
+@N: CG364 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_RAPIDA.v":4:7:4:21|Synthesizing module FSM_TEST_RAPIDA in library work.
+@N: CG364 :"C:\Users\raul.lora\Documents\prPLL_test\freq_div.v":1:7:1:14|Synthesizing module freq_div in library work.
+@N: CG364 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_slow.v":4:7:4:19|Synthesizing module FSM_TEST_slow in library work.
+@N: CG364 :"C:\Users\raul.lora\Documents\prPLL_test\config_register_latched_dec.v":8:7:8:33|Synthesizing module config_register_latched_dec in library work.
+@N: CG364 :"C:\Users\raul.lora\Documents\prPLL_test\xor_n_bits.v":1:7:1:16|Synthesizing module xor_n_bits in library work.
+@N: CG364 :"C:\Users\raul.lora\Documents\prPLL_test\xor_n_bits.v":1:7:1:16|Synthesizing module xor_n_bits in library work.
+@N: CG364 :"C:\Users\raul.lora\Documents\prPLL_test\top.v":5:7:5:9|Synthesizing module top in library work.
+@N: CL135 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_slow.v":96:1:96:6|Found sequential shift CLK_uC with address depth of 17 words and data bit width of 1.
+@N: CL201 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_slow.v":178:5:178:10|Trying to extract state machine for register current_state.
+@N: CL135 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_RAPIDA.v":81:1:81:6|Found sequential shift CLK_uC with address depth of 8 words and data bit width of 1.
+@N: CL201 :"C:\Users\raul.lora\Documents\prPLL_test\FSM_TEST_RAPIDA.v":131:5:131:10|Trying to extract state machine for register current_state.
+@N|Running in 64-bit mode
+@N: NF107 :"C:\Users\raul.lora\Documents\prPLL_test\top.v":5:7:5:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"C:\Users\raul.lora\Documents\prPLL_test\top.v":5:7:5:9|Selected library: work cell: top view verilog as top level
+

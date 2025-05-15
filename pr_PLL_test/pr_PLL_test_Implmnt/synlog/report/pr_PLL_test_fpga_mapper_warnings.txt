@@ -1,0 +1,5 @@
+@W: FX1039 :"c:\users\raul.lora\documents\prpll_test\freq_div.v":13:4:13:9|User-specified initial value defined for instance divisor_inst.counter[1:0] is being ignored. 
+@W: FX1039 :"c:\users\raul.lora\documents\prpll_test\freq_div.v":13:4:13:9|User-specified initial value defined for instance divisor_inst_2.counter[2:0] is being ignored. 
+@W: FX708 |Found invalid parameter 10 
+@W: FX708 |Found invalid parameter 4 
+@W: MT420 |Found inferred clock top|CLK with period 1000.00ns. Please declare a user-defined clock on object "p:CLK"

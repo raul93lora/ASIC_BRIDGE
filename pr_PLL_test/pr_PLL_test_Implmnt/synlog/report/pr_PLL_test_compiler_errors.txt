@@ -1,0 +1,5 @@
+@E: CG254 :"C:\Users\raul.lora\Documents\prPLL_test\xor_n_bits.v":9:1:9:5|Redeclaration of ports. Cannot mix styles.
+@E: CG254 :"C:\Users\raul.lora\Documents\prPLL_test\xor_n_bits.v":10:1:10:5|Redeclaration of ports. Cannot mix styles.
+@E: CG254 :"C:\Users\raul.lora\Documents\prPLL_test\xor_n_bits.v":11:1:11:6|Redeclaration of ports. Cannot mix styles.
+@E: CS243 :"C:\Users\raul.lora\Documents\prPLL_test\xor_n_bits.v":6:21:6:26|Direction (input, output, inout) set multiple times for port result
+

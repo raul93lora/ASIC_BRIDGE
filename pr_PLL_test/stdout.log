@@ -1,0 +1,78 @@
+Running in Lattice mode
+
+
+Starting:    C:\lscc\iCEcube2.2020.12\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\iCEcube2.2020.12\synpbase
+Hostname:    NB-ADM-01
+Date:        Thu Apr 10 16:56:12 2025
+Version:     L-2016.09L+ice40
+
+Arguments:   -product synplify_pro -batch pr_PLL_test_syn.prj
+ProductType: synplify_pro
+
+
+
+
+
+log file: "C:\Users\raul.lora\Documents\prPLL_test\pr_PLL_test\pr_PLL_test_Implmnt\pr_PLL_test.srr"
+Running: pr_PLL_test_Implmnt in foreground
+
+Running pr_PLL_test_syn|pr_PLL_test_Implmnt
+
+Running: compile (Compile) on pr_PLL_test_syn|pr_PLL_test_Implmnt
+# Thu Apr 10 16:56:12 2025
+
+Running: compile_flow (Compile Process) on pr_PLL_test_syn|pr_PLL_test_Implmnt
+# Thu Apr 10 16:56:12 2025
+
+Running: compiler (Compile Input) on pr_PLL_test_syn|pr_PLL_test_Implmnt
+# Thu Apr 10 16:56:12 2025
+Copied C:\Users\raul.lora\Documents\prPLL_test\pr_PLL_test\pr_PLL_test_Implmnt\synwork\pr_PLL_test_comp.srs to C:\Users\raul.lora\Documents\prPLL_test\pr_PLL_test\pr_PLL_test_Implmnt\pr_PLL_test.srs
+
+compiler completed
+# Thu Apr 10 16:56:14 2025
+
+Return Code: 0
+Run Time:00h:00m:02s
+
+Running: multi_srs_gen (Multi-srs Generator) on pr_PLL_test_syn|pr_PLL_test_Implmnt
+# Thu Apr 10 16:56:14 2025
+
+multi_srs_gen completed
+# Thu Apr 10 16:56:15 2025
+
+Return Code: 0
+Run Time:00h:00m:01s
+Copied C:\Users\raul.lora\Documents\prPLL_test\pr_PLL_test\pr_PLL_test_Implmnt\synwork\pr_PLL_test_mult.srs to C:\Users\raul.lora\Documents\prPLL_test\pr_PLL_test\pr_PLL_test_Implmnt\pr_PLL_test.srs
+Complete: Compile Process on pr_PLL_test_syn|pr_PLL_test_Implmnt
+
+Running: premap (Pre-mapping) on pr_PLL_test_syn|pr_PLL_test_Implmnt
+# Thu Apr 10 16:56:15 2025
+
+premap completed with warnings
+# Thu Apr 10 16:56:16 2025
+
+Return Code: 1
+Run Time:00h:00m:01s
+Complete: Compile on pr_PLL_test_syn|pr_PLL_test_Implmnt
+
+Running: map (Map) on pr_PLL_test_syn|pr_PLL_test_Implmnt
+# Thu Apr 10 16:56:16 2025
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on pr_PLL_test_syn|pr_PLL_test_Implmnt
+# Thu Apr 10 16:56:16 2025
+Copied C:\Users\raul.lora\Documents\prPLL_test\pr_PLL_test\pr_PLL_test_Implmnt\synwork\pr_PLL_test_m.srm to C:\Users\raul.lora\Documents\prPLL_test\pr_PLL_test\pr_PLL_test_Implmnt\pr_PLL_test.srm
+
+fpga_mapper completed with warnings
+# Thu Apr 10 16:56:21 2025
+
+Return Code: 1
+Run Time:00h:00m:05s
+Complete: Map on pr_PLL_test_syn|pr_PLL_test_Implmnt
+Complete: Logic Synthesis on pr_PLL_test_syn|pr_PLL_test_Implmnt
+
+exit status=0
+
+exit status=0
+

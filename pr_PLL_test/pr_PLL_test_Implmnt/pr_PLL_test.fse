@@ -1,0 +1,24 @@
+
+fsm_encoding {913151312} sequential
+
+fsm_state_encoding {913151312} IDLE {00}
+
+fsm_state_encoding {913151312} DYN_READ {01}
+
+fsm_state_encoding {913151312} STATIC_READ {10}
+
+fsm_state_encoding {913151312} INDEF_STATE {11}
+
+fsm_registers {913151312} {current_state[1]}  {current_state[0]} 
+
+fsm_encoding {717851781} sequential
+
+fsm_state_encoding {717851781} IDLE {00}
+
+fsm_state_encoding {717851781} DYN_READ {01}
+
+fsm_state_encoding {717851781} STATIC_READ {10}
+
+fsm_state_encoding {717851781} INDEF_STATE {11}
+
+fsm_registers {717851781} {current_state[1]}  {current_state[0]} 

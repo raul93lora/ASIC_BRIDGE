@@ -1,0 +1,33 @@
+# Synopsys Constraint Checker(syntax only), version maplat, Build 1612R, built Dec  5 2016
+# Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Thu Apr 10 16:56:15 2025
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "top"
+Constraint File(s):      (none)
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+Start                                  Requested      Requested     Clock                                                 Clock                     Clock
+Clock                                  Frequency      Period        Type                                                  Group                     Load 
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                 1.0 MHz        1000.000      system                                                system_clkgroup           16   
+freq_div_8s|clk_out_derived_clock      1.0 MHz        1000.000      derived (from top_pll|PLLOUTGLOBAL_derived_clock)     Autoconstr_clkgroup_0     129  
+freq_div_16s|clk_out_derived_clock     1.0 MHz        1000.000      derived (from top_pll|PLLOUTGLOBAL_derived_clock)     Autoconstr_clkgroup_0     130  
+top_pll|PLLOUTGLOBAL_derived_clock     1.0 MHz        1000.000      derived (from top|CLK)                                Autoconstr_clkgroup_0     13   
+top|CLK                                1.0 MHz        1000.000      inferred                                              Autoconstr_clkgroup_0     0    
+top|clk_output_inferred_clock          1417.2 MHz     0.706         inferred                                              Autoconstr_clkgroup_1     104  
+=========================================================================================================================================================
