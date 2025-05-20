@@ -10,23 +10,23 @@ z2
 cModel Technology
 Z0 dC:/Users/raul.lora/Documents/prPLL_test/simulation
 vASIC_bridge_top
-Z1 !s110 1747319235
+Z1 !s110 1747733329
 !i10b 1
-!s100 V3JgCS4i3l_C:P:LnEWjc0
+!s100 8_h54]UQH3WXdKV1l;m@e3
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I_Jk[DB?DD6LCI^;=7Glm`2
+Iag;<fo^@E3n8FB;]jClZF3
 Z3 dC:/Users/raul.lora/Documents/ASIC_BRIDGE/simulation
-w1747319221
+w1747730708
 8ASIC_bridge_top.v
 FASIC_bridge_top.v
-!i122 370
-L0 10 161
+!i122 564
+L0 10 148
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 Z5 OT;L;2020.3;71
 r1
 !s85 0
 31
-Z6 !s108 1747319235.000000
+Z6 !s108 1747733328.000000
 !s107 ASIC_bridge_top.v|
 !s90 -reportprogress|300|ASIC_bridge_top.v|
 !s101 -O0
@@ -35,7 +35,7 @@ o-O0
 Z7 tCvgOpt 0
 n@a@s@i@c_bridge_top
 vconfig_register_latched_dec
-R1
+Z8 !s110 1747733328
 !i10b 1
 !s100 JYoM]M1ZJ^?GAH`6J3NB>2
 R2
@@ -44,7 +44,7 @@ R3
 w1747315116
 8config_register_latched_dec.v
 Fconfig_register_latched_dec.v
-!i122 367
+!i122 560
 L0 4 147
 R4
 R5
@@ -59,7 +59,7 @@ R6
 o-O0
 R7
 vdelay_chain
-R1
+R8
 !i10b 1
 !s100 ijQkNI>P>VC`^8FbQb?0V2
 R2
@@ -68,14 +68,14 @@ R3
 w1747317430
 8delay_chain.v
 Fdelay_chain.v
-!i122 365
+!i122 562
 L0 6 28
 R4
 R5
 r1
 !s85 0
 31
-Z8 !s108 1747319234.000000
+R6
 !s107 delay_chain.v|
 !s90 -reportprogress|300|delay_chain.v|
 !s101 -O0
@@ -83,23 +83,23 @@ Z8 !s108 1747319234.000000
 o-O0
 R7
 vfreq_div
-!s110 1747319234
+R8
 !i10b 1
 !s100 Mg;6549=6z`fW=DMK<HCS0
 R2
 I;;Nz`jP8:COzz_?Zoa;@R0
 R3
-w1747317471
+w1747661570
 8freq_div.v
 Ffreq_div.v
-!i122 364
+!i122 559
 L0 6 25
 R4
 R5
 r1
 !s85 0
 31
-R8
+R6
 !s107 freq_div.v|
 !s90 -reportprogress|300|freq_div.v|
 !s101 -O0
@@ -255,7 +255,7 @@ r1
 o-O0
 R7
 vswitch_clk_1MHz
-R1
+Z13 !s110 1747725063
 !i10b 1
 !s100 HCZ=m6C9LIl?XmkHi_KmZ2
 R2
@@ -264,14 +264,14 @@ R3
 w1747318408
 8switch_clk_1MHz.v
 Fswitch_clk_1MHz.v
-!i122 366
+!i122 382
 L0 6 179
 R4
 R5
 r1
 !s85 0
 31
-R6
+Z14 !s108 1747725063.000000
 !s107 switch_clk_1MHz.v|
 !s90 -reportprogress|300|switch_clk_1MHz.v|
 !s101 -O0
@@ -280,7 +280,7 @@ o-O0
 R7
 nswitch_clk_1@m@hz
 vswitch_clk_2MHz
-R1
+R13
 !i10b 1
 !s100 m;[HEP[=<U`K>f0GYXGcU1
 R2
@@ -289,14 +289,14 @@ R3
 w1747317397
 8switch_clk_2MHz.v
 Fswitch_clk_2MHz.v
-!i122 368
+!i122 384
 L0 6 187
 R4
 R5
 r1
 !s85 0
 31
-R6
+R14
 !s107 switch_clk_2MHz.v|
 !s90 -reportprogress|300|switch_clk_2MHz.v|
 !s101 -O0
@@ -304,36 +304,88 @@ R6
 o-O0
 R7
 nswitch_clk_2@m@hz
-vtb_ASIC_bridge_top
-Z13 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-!s110 1747319236
+vswitch_clk_write2MHz
+R8
 !i10b 1
-!s100 BIEmceLmzSDj5e<BJkkmh2
+!s100 AFlWE];76g<GhgAImMW=83
 R2
-I`;HEXHUG^klM2DbFVX`:l2
-S1
+I>iZb8:=gYDN?5b5:0VmJ80
 R3
-w1747318785
-8tb_ASIC_bridge_top.sv
-Ftb_ASIC_bridge_top.sv
-!i122 371
-L0 3 61
+w1747731867
+8switch_clk_write2MHz.v
+Fswitch_clk_write2MHz.v
+!i122 563
+L0 6 203
 R4
 R5
 r1
 !s85 0
 31
 R6
-!s107 tb_ASIC_bridge_top.sv|
-!s90 -reportprogress|300|tb_ASIC_bridge_top.sv|
+!s107 switch_clk_write2MHz.v|
+!s90 -reportprogress|300|switch_clk_write2MHz.v|
+!s101 -O0
+!i113 1
+o-O0
+R7
+nswitch_clk_write2@m@hz
+vtb_ASIC_bridge_top
+Z15 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1747730534
+!i10b 1
+!s100 27RW;7R1EUIER2Tioi[HT2
+R2
+I:M>0gSKe37jHZCM`bd7Ff3
+S1
+R3
+w1747730250
+Z16 8tb_ASIC_bridge_top_v2.sv
+Z17 Ftb_ASIC_bridge_top_v2.sv
+!i122 469
+L0 3 134
+R4
+R5
+r1
+!s85 0
+31
+!s108 1747730534.000000
+!s107 tb_ASIC_bridge_top_v2.sv|
+Z18 !s90 -reportprogress|300|tb_ASIC_bridge_top_v2.sv|
 !s101 -O0
 !i113 1
 o-O0
 R7
 ntb_@a@s@i@c_bridge_top
+vtb_ASIC_bridge_top_v2
+R15
+R1
+!i10b 1
+!s100 fH:f5hEa8UK?L>;akP>:m2
+R2
+IOb<KWL_zHj^R0?gMlh6>20
+S1
+R3
+w1747733318
+R16
+R17
+!i122 565
+L0 3 143
+R4
+R5
+r1
+!s85 0
+31
+!s108 1747733329.000000
+Z19 !s107 tb_ASIC_bridge_top_v2.sv|
+R18
+!s101 -O0
+!i113 1
+o-O0
+R7
+ntb_@a@s@i@c_bridge_top_v2
 vtb_top
-R13
-Z14 !s110 1744281760
+R15
+Z20 !s110 1744281760
 !i10b 1
 !s100 1ciBKRFFZk[Y0lZEBif]_2
 R2
@@ -350,15 +402,15 @@ R5
 r1
 !s85 0
 31
-Z15 !s108 1744281760.000000
-Z16 !s107 tb_top.sv|freq_div.v|config_register_latched_dec.v|FSM_TEST_slow.v|FSM_TEST_RAPIDA.v|top_pll.v|top.v|
-Z17 !s90 -reportprogress|300|top.v|top_pll.v|FSM_TEST_RAPIDA.v|FSM_TEST_slow.v|config_register_latched_dec.v|freq_div.v|tb_top.sv|
+Z21 !s108 1744281760.000000
+Z22 !s107 tb_top.sv|freq_div.v|config_register_latched_dec.v|FSM_TEST_slow.v|FSM_TEST_RAPIDA.v|top_pll.v|top.v|
+Z23 !s90 -reportprogress|300|top.v|top_pll.v|FSM_TEST_RAPIDA.v|FSM_TEST_slow.v|config_register_latched_dec.v|freq_div.v|tb_top.sv|
 !s101 -O0
 !i113 1
 o-O0
 R7
 vtop
-R14
+R20
 !i10b 1
 !s100 :QK2La^Q37dd9c2PkAKX[1
 R2
@@ -374,15 +426,15 @@ R5
 r1
 !s85 0
 31
-R15
-R16
-R17
+R21
+R22
+R23
 !s101 -O0
 !i113 1
 o-O0
 R7
 vtop_pll
-R14
+R20
 !i10b 1
 !s100 ?ETiMLXlg]LVM`a`<<]Pl0
 R2
@@ -398,15 +450,15 @@ R5
 r1
 !s85 0
 31
-R15
-R16
-R17
+R21
+R22
+R23
 !s101 -O0
 !i113 1
 o-O0
 R7
 vxor_n_bits
-R1
+R8
 !i10b 1
 !s100 ``GgQJC`l:LQS_]<FOFT>2
 R2
@@ -415,7 +467,7 @@ R3
 w1747317495
 8xor_n_bits.v
 Fxor_n_bits.v
-!i122 369
+!i122 561
 L0 6 15
 R4
 R5

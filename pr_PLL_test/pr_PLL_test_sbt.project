@@ -4,7 +4,7 @@ Version=Lattice Semiconductor Corporation iCEcube - Release: 2020.12.27943 - Bui
 ProjectName=pr_PLL_test
 Vendor=SiliconBlue
 Synthesis=synplify
-ProjectVFiles=../freq_div.v=work,../config_register_latched_dec.v=work,../xor_n_bits.v=work,../ASIC_bridge_top.v=work,../delay_chain.v=work,../switch_clk_2MHz.v=work,../switch_clk_1MHz.v=work
+ProjectVFiles=../freq_div.v=work,../config_register_latched_dec.v=work,../xor_n_bits.v=work,../ASIC_bridge_top.v=work,../delay_chain.v=work,../switch_clk_2MHz.v=work,../switch_clk_1MHz.v=work,../switch_clk_write2MHz.v=work,../../prPLL_test/freq_div_clk_en.v
 ProjectCFiles=
 CurImplementation=pr_PLL_test_Implmnt
 Implementations=pr_PLL_test_Implmnt
@@ -43,13 +43,13 @@ DeviceFamily=iCE40
 Device=LP8K
 DevicePackage=CM81
 DevicePower=
-NetlistFile=pr_PLL_test_Implmnt/pr_PLL_test.edf
+NetlistFile=
 AdditionalEDIFFile=
 IPEDIFFile=
-DesignLib=pr_PLL_test_Implmnt/sbt/netlist/oadb-ASIC_bridge_top
-DesignView=_rt
-DesignCell=ASIC_bridge_top
-SynthesisSDCFile=pr_PLL_test_Implmnt/pr_PLL_test.scf
+DesignLib=
+DesignView=
+DesignCell=
+SynthesisSDCFile=
 UserPinConstraintFile=
 UserSDCFile=
 PhysicalConstraintFile=pr_PLL_test_Implmnt/sbt/constraint/top_pcf_sbt.pcf

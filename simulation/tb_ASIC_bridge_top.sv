@@ -21,12 +21,15 @@ module tb_ASIC_bridge_top;
     logic s12;
     logic xor_out_dyn;
     logic xor_out_stat;
+	logic end_config;
 
     // Instancia del módulo `top`
     ASIC_bridge_top uut (
         .CLK(clk),
         .RST_N(rst_n),
 		.clk_output(clk_out),
+		.static_conf_ear(static_conf_ear),
+		.dynamic_conf(dynamic_conf),
 		.mosi_output(mosi_out),
 		.sel_output(sel_out),
 		//.flag_signal_out(flag_signal_out),
@@ -34,8 +37,11 @@ module tb_ASIC_bridge_top;
 		//.s14(s14),
 		//.s13(s13),
 		//.s12(s12),
+		.flag_dyn(flag_dyn),
+		.flag_stat(flag_stat),
 		.xor_out_dyn(xor_out_dyn),
-		.xor_out_stat(xor_out_stat)
+		.xor_out_stat(xor_out_stat),
+		.end_config(end_config)
     );
 
     // Generación del reloj de entrada (16 MHz)

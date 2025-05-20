@@ -11,16 +11,21 @@ module ASIC_bridge_top(
 	CLK,		
 	RST_N,
 	clk_output,					// Final clock output for Analog ASIC
+	static_conf_ear,				// Static configuration register
+	dynamic_conf,					// Dynamic configuration register
 	mosi_output,					// MOSI signal for Analog ASIC
 	sel_output,					// SEL signal for Analog ASIC
-	//flag_signal_out,				// Signal to test the start of switch_clk_1MHz
 	miso_input,					// MISO signal for Analog ASIC
 	//s15,						// To test in GPIO the STATCNF or DYNCNF bits				
 	//s14,						// To test in GPIO the STATCNF or DYNCNF bits						
 	//s13,						// To test in GPIO the STATCNF or DYNCNF bits						
-	//s12,						// To test in GPIO the STATCNF or DYNCNF bits						
+	//s12,						// To test in GPIO the STATCNF or DYNCNF bits
+	flag_dyn,
+	flag_stat,						
 	xor_out_dyn,					// Error for dynamic reg
-	xor_out_stat					// Error for static reg
+	xor_out_stat,					// Error for static reg
+	start_ASIC_config,				// Input signal to start ASIC config 
+	end_config
 );
 
 	// Parameters definition
@@ -32,16 +37,21 @@ module ASIC_bridge_top(
 	input wire CLK;
 	input wire RST_N;
 	input wire miso_input;
+	input wire flag_dyn;
+	input wire flag_stat;
+	input wire [SIZESRSTAT-1:0] static_conf_ear;
+	input wire [SIZESRDYN-1:0] dynamic_conf;
+	input wire start_ASIC_config;
 	output wire clk_output;
 	output wire mosi_output;
 	output wire sel_output;
-	//output wire flag_signal_out;
 	//output wire s15;
 	//output wire s14;
 	//output wire s13;
 	//output wire s12;
 	output wire xor_out_dyn;			// Error detection y DYNCNF
 	output wire xor_out_stat;			// Error detection y STATCNF
+	output wire end_config;
 
 	// Connections
 	wire clk_continuous_1MHz;
@@ -58,7 +68,6 @@ module ASIC_bridge_top(
 	wire mosi_output_aux;
 	wire sel_output_aux;
 	wire signal_sdo;		
-	wire flag_signal;				// Signal to start switch_clk_1MHz module from switch_clk_2MHz module
 	wire [SIZESRDYN-1:0] DYNLATCH;
 	wire [SIZESRSTAT-1:0] STATLATCH;  
 	wire [SIZESRDYN-1:0] DYNCNF;
@@ -72,56 +81,34 @@ module ASIC_bridge_top(
 	);
 
 	// Instantiate switch_clk_2Mhz to switch on/off the 2MHz clock
-	switch_clk_2MHz #(
-		.DELAY_CYCLES(8),
-		.BIT_SEQUENCE_DIN_INIT(16'h4321),    			
-		.BIT_SEQUENCE_STAT_INIT(88'hFEDCBA9876543210012345) 
-    	) switch_clk_2MHz_inst(
+	switch_clk_write2MHz #(
+		.DELAY_CYCLES(8)
+    	) switch_clk_write2MHz_STATIC_inst(
 		.CLK(CLK),					
 		.clk_continuous_2MHz(clk_continuous_2MHz),		
 		.CLK_ON_OFF(clk_out_2MHz),					
 		.RST_N(RST_N),
+		.dynamic_conf(dynamic_conf),
+		.static_conf_ear(static_conf_ear),
 		.SEL(aux_selection_2MHz),
-		.flag_input(1'b1),
-		.flag_output(flag_signal),
-		.MOSI(mosi_2MHz)
-	);
-
-	// Instantiate frequency divider to generate a continuous 1MHz clock (Fin=16MHz, Fout=1MHz, DIV=16)
-	freq_div #(.DIVISOR(16)) divisor_inst_2 (
-		.clk_in(CLK),
-		.RST_N(RST_N),
-		.clk_out(clk_continuous_1MHz)
-	);
-
-	// Instantiate switch_clk_2Mhz to switch on/off the 1MHz clock
-	switch_clk_1MHz #(
-		.DELAY_CYCLES(17),
-		.BIT_SEQUENCE_DIN_INIT(16'hABCD),    			
-		.BIT_SEQUENCE_STAT_INIT(88'h123456789ABCDEF1234567)
-    	) switch_clk_1MHz_inst(
-		.CLK(CLK),					
-		.clk_continuous_1MHz(clk_continuous_1MHz),		
-		.CLK_ON_OFF(clk_out_1MHz),					
-		.RST_N(RST_N),
-		.SEL(aux_selection_1MHz),
-		.flag_input(flag_signal),
-		.MOSI(mosi_1MHz)
+		.flag_dyn(flag_dyn),
+		.flag_stat(flag_stat),
+		.end_config(end_config),
+		.MOSI(mosi_2MHz),
+		.start_ASIC_config(start_ASIC_config)
 	);
 
 	// Select between writing at 2MHz or 1MHz
-	assign clk_output = flag_signal ? clk_out_1MHz : clk_out_2MHz;
-	assign mosi_output = flag_signal ? mosi_1MHz : mosi_2MHz;
-	assign sel_output = flag_signal ? aux_selection_1MHz : aux_selection_2MHz;
+	assign clk_output = clk_out_2MHz;
+	assign mosi_output = mosi_2MHz;
+	assign sel_output = aux_selection_2MHz;
 	//assign s14 = aux_selection_1MHz;
 	//assign s13 = aux_selection;
 
 	// Aux signals to choose between 1MHz or 2MHz clock frequencies
-	assign clk_output_aux = (flag_signal) ? clk_out_1MHz : clk_out_2MHz;
-	assign mosi_output_aux = (flag_signal) ? mosi_1MHz : mosi_2MHz;
-	assign sel_output_aux = (flag_signal) ? aux_selection_1MHz : aux_selection_2MHz;
-
-	//assign flag_signal_out = flag_signal;
+	assign clk_output_aux = clk_out_2MHz;
+	assign mosi_output_aux = mosi_2MHz;
+	assign sel_output_aux = aux_selection_2MHz;
 
 	// Erandel analog chip emulator RTL module (to check that the response from the other FPGA is the same that was sent there)
 	config_register_latched_dec config_register_latched_dec_inst(
@@ -141,14 +128,14 @@ module ASIC_bridge_top(
 
 	// Error detection for dynamic register (XOR-based detection)
 	xor_n_bits #(.N(16)) xor_instance_dyn (
-		.a(16'h4321),
+		.a(dynamic_conf),
 		.b(DYNCNF),
 		.result(xor_out_dyn)
 	);
 
 	// Error detection for static register (XOR-based detection)
 	xor_n_bits #(.N(88)) xor_instance_stat (
-		.a(88'hFEDCBA9876543210012345),
+		.a(static_conf_ear),
 		.b(STATCNF),
 		.result(xor_out_stat)
 	);

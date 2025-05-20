@@ -9,6 +9,8 @@ add_file -verilog -lib work "../ASIC_bridge_top.v"
 add_file -verilog -lib work "../delay_chain.v" 
 add_file -verilog -lib work "../switch_clk_2MHz.v" 
 add_file -verilog -lib work "../switch_clk_1MHz.v" 
+add_file -verilog -lib work "../switch_clk_write2MHz.v" 
+add_file -verilog -lib work "../../prPLL_test/freq_div_clk_en.v" 
 #implementation: "pr_PLL_test_Implmnt"
 impl -add pr_PLL_test_Implmnt -type fpga
 
